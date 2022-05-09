@@ -1,0 +1,4 @@
+repository "Comatose@LuLuBee@cloud"
+  path "/"
+    br "/main"
+    co "/main"
