@@ -34,17 +34,17 @@ public class TextWriter : MonoBehaviour
         private bool invisibleCharacters;
 
         public TextWriterSingle(TextMeshProUGUI uiText, string textToWrite, float timePerCharacter, bool invisibleCharacters) {
-        this.uiText = uiText;
-        this.textToWrite = textToWrite;
-        this.timePerCharacter = timePerCharacter;
-        this.invisibleCharacters = invisibleCharacters;
-        characterIndex = 0;
-    }     
+            this.uiText = uiText;
+            this.textToWrite = textToWrite;
+            this.timePerCharacter = timePerCharacter;
+            this.invisibleCharacters = invisibleCharacters;
+            characterIndex = 0;
+        }     
         
         // Returns true on complete
         public bool Update() {
             timer -= Time.deltaTime;
-            while (timer <= 0) {
+            while (timer <= 0f) {
                 //display next character
                 timer += timePerCharacter;
                 characterIndex++;
@@ -56,7 +56,6 @@ public class TextWriter : MonoBehaviour
 
                 if (characterIndex >= textToWrite.Length) {
                     //entire string displayed
-                    uiText = null;
                     return true;
                 }
             }
