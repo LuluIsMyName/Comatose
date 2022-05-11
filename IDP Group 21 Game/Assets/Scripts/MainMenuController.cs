@@ -5,13 +5,18 @@ using UnityEngine.SceneManagement;
 
 public class MainMenuController : MonoBehaviour
 {
-    public void PlayGame()
-    {
-        SceneManager.LoadScene("LivingRoom");
-    }
-
     public void MainMenu()
     {
         SceneManager.LoadScene("MainMenu");
+    }
+
+    public void LivingRoom()
+    {
+        SceneManager.LoadScene("LivingRoom");
+    }
+    
+    public void Hallway()
+    {
+        SceneManager.LoadScene("Hallway");
     }
 }
