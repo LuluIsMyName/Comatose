@@ -11,12 +11,12 @@ public class UI_Assistant : MonoBehaviour
 
     void Awake() {
         textMesh = GetComponent<TextMeshProUGUI> ();
-        Application.targetFrameRate = 60;
+        Application.targetFrameRate = 608;
     }
 
     void Start() {
         textMesh.text = "Hello World!";
-        textWriter.AddWriter (textMesh, "Hi this is Mr. Buzzy Bee speaking with you today. We've been trying to reach you about your car's extended warranty. ", .1f, true);
+        textWriter.AddWriter (textMesh, "Hi this is Mr. Buzzy Bee speaking with you today. We've been trying to reach you about your car's extended warranty. ", .05f, true);
     }
     
 }
