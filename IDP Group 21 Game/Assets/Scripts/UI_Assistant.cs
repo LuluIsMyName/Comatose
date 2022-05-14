@@ -11,7 +11,7 @@ public class UI_Assistant : MonoBehaviour
 
     void Awake() {
         textMesh = GetComponent<TextMeshProUGUI> ();
-        Application.targetFrameRate = 608;
+        Application.targetFrameRate = 60;
     }
 
     void Start() {

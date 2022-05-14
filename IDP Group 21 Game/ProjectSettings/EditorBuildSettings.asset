@@ -14,4 +14,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Hallway.unity
     guid: 5e94a4c21dec2724aa62a3ee1a1cbac5
+  - enabled: 1
+    path: Assets/Scenes/Bathroom.unity
+    guid: d37331eed5f2adb40b45b8603f2f74bd
+  - enabled: 1
+    path: Assets/Scenes/CorbinsRoom.unity
+    guid: 4ad92095a9654374b853221c1e6d75dd
+  - enabled: 1
+    path: Assets/Scenes/Dining.unity
+    guid: db918ca3be5151b4ba81dd6918255c7e
+  - enabled: 1
+    path: Assets/Scenes/Kitchen.unity
+    guid: dbf9d8b7f191b88479b582f29f407918
+  - enabled: 1
+    path: Assets/Scenes/HectorAndMCBedroom.unity
+    guid: c68adff8c49c6bb4c829ad982784c264
+  - enabled: 1
+    path: Assets/Scenes/Office.unity
+    guid: c1112cdfd8a07314084de8e685ff6867
   m_configObjects: {}
