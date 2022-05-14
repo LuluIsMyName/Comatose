@@ -6,7 +6,6 @@ using TMPro;
 public class UI_Assistant : MonoBehaviour
 {
     
-    [SerializeField] private TextWriter textWriter;
     private TextMeshProUGUI textMesh;
 
     void Awake() {
@@ -16,7 +15,7 @@ public class UI_Assistant : MonoBehaviour
 
     void Start() {
         textMesh.text = "Hello World!";
-        textWriter.AddWriter (textMesh, "Hi this is Mr. Buzzy Bee speaking with you today. We've been trying to reach you about your car's extended warranty. ", .05f, true);
+        TextWriter.AddWriter_Static(textMesh, "Hi this is Mr. Buzzy Bee speaking with you today. We've been trying to reach you about your car's extended warranty. ", .05f, true);
     }
     
 }

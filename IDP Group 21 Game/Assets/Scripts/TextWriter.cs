@@ -5,19 +5,28 @@ using TMPro;
 
 public class TextWriter : MonoBehaviour
 {
-
+    private static TextWriter instance;
     private List<TextWriterSingle> textWriterSingleList;
 
     private void Awake() {
+        instance = this;
         textWriterSingleList = new List<TextWriterSingle>();
     }
-    public void AddWriter(TextMeshProUGUI uiText, string textToWrite, float timePerCharacter, bool invisibleCharacters) {
+    public static void AddWriter_Static(TextMeshProUGUI uiText, string textToWrite, float timePerCharacter, bool invisibleCharacters) {
+        instance.AddWriter(uiText, textToWrite, timePerCharacter, invisibleCharacters);
+    }
+    private void AddWriter(TextMeshProUGUI uiText, string textToWrite, float timePerCharacter, bool invisibleCharacters) {
         textWriterSingleList.Add(new TextWriterSingle (uiText, textToWrite, timePerCharacter, invisibleCharacters));
     }
 
     private void Update() {
+        Debug.Log(textWriterSingleList.Count);
         for (int i = 0; i < textWriterSingleList.Count; i++) {
-            textWriterSingleList[i].Update();
+            bool destroyInstance = textWriterSingleList[i].Update();
+            if (destroyInstance) {
+                textWriterSingleList.RemoveAt(i);
+                i--;
+            }
         }
     }
     /*
