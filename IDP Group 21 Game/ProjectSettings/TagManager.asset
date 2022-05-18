@@ -38,6 +38,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Text Layer
+    uniqueID: 536567417
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0

@@ -13,11 +13,21 @@ MonoBehaviour:
   m_Name: 2
   m_EditorClassIdentifier: 
   sentences:
-  - text: it's show time!
-    speaker: {fileID: 11400000, guid: 7f1feafddb7649c46bfa3c5d8e360889, type: 2}
-  - text: Not yet, Jayden
-    speaker: {fileID: 11400000, guid: d1886c5fb647f5c4ea4b67d477224568, type: 2}
-  - text: _
-    speaker: {fileID: 11400000, guid: d1886c5fb647f5c4ea4b67d477224568, type: 2}
-  background: {fileID: 21300000, guid: 4487a8e6a6fb53549a7fd9570bca03b2, type: 3}
+  - text: "MC! What\u2019s up man? How are you?"
+    speaker: {fileID: 11400000, guid: 515442c34d8167b479f9cbdf8d32c464, type: 2}
+  - text: "I guess I\u2019m okay, but who are you? "
+    speaker: {fileID: 11400000, guid: 942ff9de71881af46812870fe8392420, type: 2}
+  - text: "I\u2019m Olivia, but are you aware you just \u2026 Nevermind. So, nice
+      to meet you!  Welcome to your mind. However, uh.. You should not be here. "
+    speaker: {fileID: 11400000, guid: d85a2d133f355f94695856296789aa68, type: 2}
+  - text: ' My mind? How did I get here, and why am I here?'
+    speaker: {fileID: 11400000, guid: 515442c34d8167b479f9cbdf8d32c464, type: 2}
+  - text: " I\u2019ll tell you later. Right now I gotta help you get outta here!
+      I don\u2019t really know if you can, but you do have a chance.  "
+    speaker: {fileID: 11400000, guid: d85a2d133f355f94695856296789aa68, type: 2}
+  - text: "Oh\u2026 OK."
+    speaker: {fileID: 11400000, guid: 515442c34d8167b479f9cbdf8d32c464, type: 2}
+  - text: 
+    speaker: {fileID: 11400000, guid: 942ff9de71881af46812870fe8392420, type: 2}
+  background: {fileID: 21300000, guid: 553fa36d21706ae40849a0be342f1e53, type: 3}
   nextScene: {fileID: 0}
