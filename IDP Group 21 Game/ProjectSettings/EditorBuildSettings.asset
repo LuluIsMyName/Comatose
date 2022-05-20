@@ -15,26 +15,14 @@ EditorBuildSettings:
     path: Assets/Scenes/Hallway.unity
     guid: 5e94a4c21dec2724aa62a3ee1a1cbac5
   - enabled: 1
-    path: Assets/Scenes/Jayden3.unity
-    guid: 7d699dfdbdeaea243b945b9cc00656a0
-  - enabled: 1
     path: Assets/Scenes/Bathroom.unity
     guid: d37331eed5f2adb40b45b8603f2f74bd
   - enabled: 1
     path: Assets/Scenes/CorbinsRoom.unity
     guid: 4ad92095a9654374b853221c1e6d75dd
   - enabled: 1
-    path: Assets/Scenes/Jayden1.unity
-    guid: 4ce73d5d99ff8094a8dee33c9b2d6521
-  - enabled: 1
     path: Assets/Scenes/Dining.unity
     guid: db918ca3be5151b4ba81dd6918255c7e
-  - enabled: 1
-    path: Assets/Scenes/Jayden.unity
-    guid: ebc91f75cd9719846bf8c560986df0c7
-  - enabled: 1
-    path: Assets/Scenes/Jayden2.unity
-    guid: f044f04f5fd2a0a45af16492b9fb6c76
   - enabled: 1
     path: Assets/Scenes/Kitchen.unity
     guid: dbf9d8b7f191b88479b582f29f407918
