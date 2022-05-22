@@ -50,7 +50,6 @@ public class ClickToMove : MonoBehaviour
         targetPosition.z = transform.position.z;
 
         isMoving = true;
-        Debug.Log("Target position set");
     }
     void Move() 
     {   
@@ -59,7 +58,6 @@ public class ClickToMove : MonoBehaviour
         {
             isMoving = false;
             rb.velocity = Vector2.zero;
-            Debug.Log("Target reached");
         }
     }
     void AnimatePlayer() {
