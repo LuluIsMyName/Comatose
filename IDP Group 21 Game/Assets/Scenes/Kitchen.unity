@@ -588,6 +588,7 @@ GameObject:
   - component: {fileID: 407806780}
   - component: {fileID: 407806782}
   - component: {fileID: 407806781}
+  - component: {fileID: 407806783}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -622,11 +623,12 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 407806748}
   selectedCommands:
-  - {fileID: 407806780}
+  - {fileID: 407806781}
   variables:
   - {fileID: 407806758}
   - {fileID: 407806763}
   - {fileID: 407806766}
+  - {fileID: 407806783}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -3784,6 +3786,21 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &407806783
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 407806734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: TraumaMode
+  value: 0
 --- !u!114 &414534919 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5500098936716174130, guid: 7e5e63a5950b9f445b3b6a15bd4bb62e, type: 3}

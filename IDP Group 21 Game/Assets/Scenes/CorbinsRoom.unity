@@ -281,7 +281,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &220715239
 MonoBehaviour:
@@ -825,6 +825,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &734606906 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8787080240747878735, guid: 063531e7592d54f4e889dba42f4a00e6, type: 3}
+  m_PrefabInstance: {fileID: 1379901841}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1217141535
 GameObject:
   m_ObjectHideFlags: 0
@@ -918,7 +929,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1100,7 +1111,7 @@ Transform:
   m_Children:
   - {fileID: 249056254}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1803549037
 GameObject:
@@ -1215,6 +1226,8 @@ GameObject:
   - component: {fileID: 1840589904}
   - component: {fileID: 1840589902}
   - component: {fileID: 1840589901}
+  - component: {fileID: 1840589909}
+  - component: {fileID: 1840589910}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1235,11 +1248,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 181.13603, y: 44.925667}
+  scrollPos: {x: 318.6349, y: 122.29124}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.7600003
+  zoom: 0.6100004
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1247,12 +1260,13 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1840589899}
+  - {fileID: 1840589897}
   selectedCommands:
-  - {fileID: 1840589898}
+  - {fileID: 1840589909}
   variables:
   - {fileID: 1840589902}
   - {fileID: 1840589901}
+  - {fileID: 1840589910}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -1279,7 +1293,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 330
     y: 118
-    width: 121.57892
+    width: 114.26225
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1319,9 +1333,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 65.82353
-    y: 68.82353
-    width: 114.2105
+    x: 74.02025
+    y: 131.11858
+    width: 109.01636
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1350,7 +1364,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1840589887
 MonoBehaviour:
@@ -1430,7 +1444,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 464
     y: 203
-    width: 119.473656
+    width: 112.95078
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1498,7 +1512,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 474.82352
     y: 264.64703
-    width: 123.68418
+    width: 118.19668
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1580,9 +1594,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 299
+    x: 297.36066
     y: 205
-    width: 85.78946
+    width: 82.786865
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1592,6 +1606,7 @@ MonoBehaviour:
   eventHandler: {fileID: 1840589896}
   commandList:
   - {fileID: 1840589895}
+  - {fileID: 1840589909}
   suppressAllAutoSelections: 0
 --- !u!114 &1840589898
 MonoBehaviour:
@@ -1607,7 +1622,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 10
   indentLevel: 0
-  storyText: Inner Ring Letter I to outer ring Letter C. G to ?
+  storyText: "Huh\u2026 it\u2019s locked. There\u2019s also a note :\u201C2 digits
+    added together equal what letters?\u201D"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1636,7 +1652,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 213.03627
     y: 268.8
-    width: 85.78946
+    width: 82.786865
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2574,6 +2590,49 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &1840589909
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1840589881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 31
+  indentLevel: 0
+  storyText: "What\u2019s with the notes? Sure Corbin loved his seashells, but I
+    don\u2019t think there were notes."
+  description: 
+  character: {fileID: 734606906}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1840589910
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1840589881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: TraumaMode
+  value: 0
 --- !u!1 &1857422339
 GameObject:
   m_ObjectHideFlags: 0

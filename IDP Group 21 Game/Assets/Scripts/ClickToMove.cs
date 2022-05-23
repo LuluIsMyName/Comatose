@@ -17,6 +17,7 @@ public class ClickToMove : MonoBehaviour
     private SpriteRenderer sr;
     private Animator anim;
     public Sprite idle;
+    
 
     private string WALK_ANIMATION = "Walk";
     Vector2 posDif;
@@ -43,6 +44,7 @@ public class ClickToMove : MonoBehaviour
             Move();
         }
         Debug.Log(rb.velocity.x);
+        
     }
     void SetTargetPosition() 
     {
