@@ -43,7 +43,7 @@ public class ClickToMove : MonoBehaviour
         {
             Move();
         }
-        Debug.Log(rb.velocity.x);
+        
         
     }
     void SetTargetPosition() 
