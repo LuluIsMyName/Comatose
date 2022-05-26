@@ -11,12 +11,16 @@ public class Timer : MonoBehaviour
     public static float currentTime = 30;
     public float startMinutes;
     public TextMeshProUGUI timerText;
+    public static bool firstTime = true;
 
     // Start is called before the first frame update
     void Awake()
     {
-        // DontDestroyOnLoad(this.gameObject);
-        currentTime = startMinutes * 60;
+        if (firstTime == true)
+        {
+            currentTime = startMinutes * 60;
+            firstTime = false;
+        }
     }
 
     // Update is called once per frame

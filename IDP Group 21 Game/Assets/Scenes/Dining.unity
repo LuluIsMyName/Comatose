@@ -744,11 +744,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 381.49994, y: 127.90403}
+  scrollPos: {x: 119.6258, y: 151.93344}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.60999995
+  zoom: 0.7599998
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -756,8 +756,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 394760756}
-  selectedCommands: []
+  - {fileID: 394760718}
+  selectedCommands:
+  - {fileID: 394760715}
   variables:
   - {fileID: 394760704}
   - {fileID: 394760707}
@@ -811,7 +812,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 497.21295
     y: 56.475426
-    width: 90.65575
+    width: 95.26317
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -869,7 +870,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 65
     y: 68.57143
-    width: 109.0164
+    width: 113.15791
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -919,7 +920,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 688.8195
     y: 55.9181
-    width: 72.29508
+    width: 74.21053
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1095,7 +1096,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 592.28796
     y: 59.380577
-    width: 82.78689
+    width: 85.78948
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2561,11 +2562,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 33
   indentLevel: 0
-  storyText: "You find a page that has information on baconian ciphers. It states
-    that the ciphers are a combination of a\u2019s and b\u2019s. The 5 letters of
-    a\u2019s and b\u2019s are put together to represent a single letter."
+  storyText: I don't want to read it right now, maybe later.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 527718796}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -2633,9 +2632,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 374.50812
+    x: 371.87653
     y: 56.983597
-    width: 119.5082
+    width: 125.7895
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2708,7 +2707,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 187.14482
     y: -106.0149
-    width: 98.5246
+    width: 103.68422
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2738,7 +2737,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 331.15735
     y: -95.47798
-    width: 137.86887
+    width: 145.78949
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3632,7 +3631,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 499.10693
     y: -101.59068
-    width: 114.2623
+    width: 120.52634
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4649,7 +4648,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 158.83255
     y: -13.841431
-    width: 141.80328
+    width: 150.00003
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5183,7 +5182,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 317.41415
     y: 186.94104
-    width: 161.47542
+    width: 170.00003
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5318,7 +5317,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 628.6814
     y: 187.24942
-    width: 124.754105
+    width: 130.00003
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5954,7 +5953,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 771.11456
     y: 185.42628
-    width: 114.2623
+    width: 118.421074
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6021,7 +6020,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 487.70477
     y: 187.62299
-    width: 132.62296
+    width: 139.47371
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0

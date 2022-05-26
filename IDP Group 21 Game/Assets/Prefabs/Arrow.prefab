@@ -100,7 +100,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clickEnabled: 1
   hoverCursor: {fileID: 0}
-  useEventSystem: 0
+  useEventSystem: 1
   activateDistance: 0
 --- !u!60 &4208449451698117664
 PolygonCollider2D:
