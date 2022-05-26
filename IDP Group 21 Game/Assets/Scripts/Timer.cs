@@ -11,7 +11,9 @@ public class Timer : MonoBehaviour
     public static float currentTime = 30;
     public float startMinutes;
     public TextMeshProUGUI timerText;
-    public static bool firstTime = true;
+    public static bool firstTime = true;   
+    public static string time;
+
 
     // Start is called before the first frame update
     void Awake()
@@ -24,12 +26,16 @@ public class Timer : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void Start()
     {
+        InvokeRepeating("OutputTime", 1f, 1f);
+    }
+    void Update()
+    {   
+
         if (timerActive == true)
         {
             currentTime = currentTime - Time.deltaTime;
-            Debug.Log(currentTime);
             if (currentTime <= 0)
             {
                 timerActive = false;
@@ -38,5 +44,10 @@ public class Timer : MonoBehaviour
         }
         TimeSpan time =TimeSpan.FromSeconds(currentTime);
         timerText.text = time.Minutes.ToString() + ":" + time.Seconds.ToString();
+    }
+    void OutputTime()
+    {
+        time = timerText.text;
+        Debug.Log(time);
     }
 }

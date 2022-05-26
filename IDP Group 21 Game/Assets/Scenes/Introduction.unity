@@ -3138,8 +3138,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 1976583244}
+  selectedCommands:
+  - {fileID: 1976583258}
   variables: []
   description: 
   stepPause: 0
@@ -3769,6 +3771,10 @@ PrefabInstance:
     - target: {fileID: 1868363129752220888, guid: 20e59d215fa59b740a67669dca62d6b4, type: 3}
       propertyPath: m_Name
       value: Norman
+      objectReference: {fileID: 0}
+    - target: {fileID: 1868363129752220889, guid: 20e59d215fa59b740a67669dca62d6b4, type: 3}
+      propertyPath: nameColor.b
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1868363129752220894, guid: 20e59d215fa59b740a67669dca62d6b4, type: 3}
       propertyPath: m_RootOrder
