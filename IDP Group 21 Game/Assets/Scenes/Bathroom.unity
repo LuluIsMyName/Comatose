@@ -207,6 +207,9 @@ GameObject:
   - component: {fileID: 260861596}
   - component: {fileID: 260861595}
   - component: {fileID: 260861594}
+  - component: {fileID: 260861599}
+  - component: {fileID: 260861600}
+  - component: {fileID: 260861598}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -227,7 +230,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 20.415886, y: 219.94524}
+  scrollPos: {x: 201.80298, y: 301.41638}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -239,9 +242,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 260861578}
+  - {fileID: 260861599}
   selectedCommands:
-  - {fileID: 260861585}
+  - {fileID: 260861598}
   variables:
   - {fileID: 260861543}
   - {fileID: 260861548}
@@ -300,8 +303,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 324.9726
-    y: 82.89042
+    x: 337.9726
+    y: -12.109581
     width: 75.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -370,8 +373,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 67
-    y: 70
+    x: 26
+    y: -11
     width: 112.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -436,8 +439,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 232.34149
-    y: 217.39026
+    x: 610.3415
+    y: -9.609741
     width: 97.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -5121,6 +5124,163 @@ MonoBehaviour:
     booleanRef: {fileID: 0}
     booleanVal: 0
   targetGameObjectOLD: {fileID: 0}
+--- !u!114 &260861598
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 260861532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 72
+  indentLevel: 0
+  storyText: 'Mostly filled with towels, but in the bottom drawer there are dinosaurs,
+    rubber ducks, and soap.
+
+'
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &260861599
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 260861532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 499.77124
+    y: -7.2735596
+    width: 91.6
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 71
+  blockName: Drawer
+  description: 
+  eventHandler: {fileID: 260861600}
+  commandList:
+  - {fileID: 260861598}
+  suppressAllAutoSelections: 0
+--- !u!114 &260861600
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 260861532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a49012bdc794e429686c1eff7d9ced90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 260861599}
+  suppressBlockAutoSelect: 0
+  clickableObject: {fileID: 309361198}
+  waitFrames: 1
+--- !u!1 &309361197
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 309361200}
+  - component: {fileID: 309361199}
+  - component: {fileID: 309361198}
+  m_Layer: 0
+  m_Name: Drawer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &309361198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 309361197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc03961113fa349c09cb06ef2911013d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickEnabled: 1
+  hoverCursor: {fileID: 0}
+  useEventSystem: 0
+  activateDistance: 0
+--- !u!60 &309361199
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 309361197}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -5.0017185, y: -0.563302}
+      - {x: -5.1616964, y: -0.58482504}
+      - {x: -5.7113123, y: -0.6618466}
+      - {x: -5.666683, y: -6.324148}
+      - {x: -4.3176823, y: -6.340439}
+      - {x: -4.0759854, y: -6.0955215}
+      - {x: -3.7744324, y: -6.146312}
+      - {x: -3.1876452, y: -5.6122174}
+      - {x: -3.212811, y: -2.950198}
+      - {x: -3.1802006, y: -0.5817762}
+--- !u!4 &309361200
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 309361197}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.200925, y: 1.3324394, z: 0.07526295}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &446160965 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4916442434226862377, guid: 3c9994b5d9ac98141843ae932d5dfe07, type: 3}
