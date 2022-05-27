@@ -768,9 +768,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 394760783}
-  selectedCommands:
-  - {fileID: 394760784}
+  - {fileID: 394760782}
+  selectedCommands: []
   variables:
   - {fileID: 394760704}
   - {fileID: 394760707}
@@ -6427,7 +6426,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parentBlock: {fileID: 394760782}
   suppressBlockAutoSelect: 0
-  clickableObject: {fileID: 0}
+  clickableObject: {fileID: 2008818203}
   waitFrames: 1
 --- !u!114 &394760781
 MonoBehaviour:
@@ -6469,7 +6468,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 897.10156
+    x: 898.10156
     y: 186.61722
     width: 80.4
     height: 40
