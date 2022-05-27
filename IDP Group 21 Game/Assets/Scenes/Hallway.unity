@@ -5679,7 +5679,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scope: 2
   key: TraumaMode
-  value: 1
+  value: 0
 --- !u!114 &17002666
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -44674,7 +44674,7 @@ MonoBehaviour:
   waitFrames: 1
 --- !u!114 &17003163
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}

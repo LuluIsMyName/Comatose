@@ -196,7 +196,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0, b: 1, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3107,6 +3107,7 @@ GameObject:
   - component: {fileID: 1976583262}
   - component: {fileID: 1976583261}
   - component: {fileID: 1976583264}
+  - component: {fileID: 1976583265}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -3127,11 +3128,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 405.86838, y: 38.757507}
+  scrollPos: {x: 516.54193, y: 129.00485}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 1
+  zoom: 0.7300001
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -3141,7 +3142,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1976583244}
   selectedCommands:
-  - {fileID: 1976583258}
+  - {fileID: 1976583265}
   variables: []
   description: 
   stepPause: 0
@@ -3169,7 +3170,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 57.81942
     y: 60.846786
-    width: 132.4
+    width: 128.90411
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3178,6 +3179,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 1976583246}
   commandList:
+  - {fileID: 1976583265}
   - {fileID: 1976583245}
   - {fileID: 1976583248}
   - {fileID: 1976583254}
@@ -3485,8 +3487,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 12
   indentLevel: 0
-  storyText: "Was it when big-bro got his brains blown out? Was it when Aaron went
-    from human to flat stanley in seconds? I DON\u2019T KNOW"
+  storyText: Was it when Corbin got his brains blown out in Vietnam? Was it when
+    Aaron became a human pancake after beiong hit by a car? Was it when Rylee got
+    shanked? I don't know. I DON'T KNOW.
   description: 
   character: {fileID: 289384019}
   portrait: {fileID: 0}
@@ -3667,6 +3670,24 @@ MonoBehaviour:
     stringVal: HectorAndMCBedroom
   loadingImage: {fileID: 0}
   sceneNameOLD: 
+--- !u!114 &1976583265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1976583242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1902400ccc99b45d69ad01cb86b57d0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 21
+  indentLevel: 0
+  musicClip: {fileID: 0}
+  atTime: 0
+  loop: 1
+  fadeDuration: 1
 --- !u!1 &2043666777
 GameObject:
   m_ObjectHideFlags: 0
