@@ -123,6 +123,93 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &3624602
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3624605}
+  - component: {fileID: 3624604}
+  - component: {fileID: 3624603}
+  m_Layer: 0
+  m_Name: PictureFrames
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!60 &3624603
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3624602}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 1.1416726, y: 1.24473}
+      - {x: 0.89498997, y: 1.0938473}
+      - {x: -0.073161125, y: 1.2267971}
+      - {x: -0.34069252, y: 1.1682549}
+      - {x: -0.34496218, y: 0.43418863}
+      - {x: -0.3572058, y: -0.81560504}
+      - {x: -0.3345312, y: -2.2386072}
+      - {x: 4.1947694, y: -2.2440948}
+      - {x: 4.187587, y: -1.8725185}
+      - {x: 4.6747093, y: -1.9908733}
+      - {x: 4.222428, y: -0.92163086}
+      - {x: 3.7078161, y: -0.81941605}
+      - {x: 3.7896943, y: 0.7406673}
+--- !u!114 &3624604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3624602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc03961113fa349c09cb06ef2911013d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickEnabled: 1
+  hoverCursor: {fileID: 0}
+  useEventSystem: 0
+  activateDistance: 0
+--- !u!4 &3624605
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3624602}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.56, y: -17.76, z: -0.0000048673246}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &26660381
 GameObject:
   m_ObjectHideFlags: 0
@@ -727,6 +814,111 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &978696242
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 978696245}
+  - component: {fileID: 978696244}
+  - component: {fileID: 978696243}
+  m_Layer: 0
+  m_Name: Boxes
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!60 &978696243
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 978696242}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.8121252, y: 1.8354626}
+      - {x: 0.67758894, y: 1.4488878}
+      - {x: 1.6394706, y: 0.057519913}
+      - {x: 0.6206851, y: 0.260458}
+      - {x: 0.7010608, y: 0.5158415}
+      - {x: 0.49371815, y: 0.57173824}
+      - {x: 0.7334814, y: 0.80339336}
+      - {x: 0.6763172, y: 0.8930788}
+      - {x: 0.38545847, y: 0.9981899}
+      - {x: 0.6388974, y: 1.6839161}
+      - {x: 0.47185326, y: 1.9562235}
+      - {x: -0.5811572, y: 2.2192554}
+      - {x: -1.0499349, y: 1.1186571}
+      - {x: -1.090327, y: 0.9373188}
+      - {x: -1.5107658, y: 0.8407669}
+      - {x: -1.5244794, y: 0.7124758}
+      - {x: -2.049229, y: 0.49318197}
+      - {x: -1.4937627, y: 0.39910698}
+      - {x: -1.5673923, y: -0.9396906}
+      - {x: -1.4391975, y: -1.0021629}
+      - {x: -1.4665303, y: -1.6123953}
+      - {x: -0.27402204, y: -1.8253382}
+      - {x: -0.23500156, y: -1.9890308}
+      - {x: 1.7473465, y: -2.2618797}
+      - {x: 2.321692, y: -1.1057997}
+      - {x: 2.3092484, y: -0.92129326}
+      - {x: 3.597906, y: -2.8391514}
+      - {x: 3.9962387, y: -2.4599686}
+      - {x: 4.0347023, y: -1.9333267}
+      - {x: 2.9741855, y: -0.44723225}
+      - {x: 1.1984491, y: 2.0223074}
+--- !u!114 &978696244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 978696242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc03961113fa349c09cb06ef2911013d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickEnabled: 1
+  hoverCursor: {fileID: 0}
+  useEventSystem: 0
+  activateDistance: 0
+--- !u!4 &978696245
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 978696242}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.62, y: -14.6, z: -0.0000048673246}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &981906405 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4173570304905964781, guid: 291f292334d52e541973b25a1acdcb97, type: 3}
@@ -968,6 +1160,103 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4173570303187826146, guid: 291f292334d52e541973b25a1acdcb97, type: 3}
   m_PrefabInstance: {fileID: 4173570304545611528}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1397205563
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1397205566}
+  - component: {fileID: 1397205565}
+  - component: {fileID: 1397205564}
+  m_Layer: 0
+  m_Name: Papers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!60 &1397205564
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1397205563}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 1.3923315, y: 0.4482689}
+      - {x: 0.7946577, y: 0.40932846}
+      - {x: 0.82740974, y: 0.589694}
+      - {x: 1.0504167, y: 0.95317173}
+      - {x: 0.982702, y: 1.0610542}
+      - {x: 0.84161496, y: 1.0371628}
+      - {x: 0.9854741, y: 1.2919674}
+      - {x: 0.978935, y: 1.4157476}
+      - {x: 0.8746972, y: 1.4290028}
+      - {x: 0.884572, y: 1.6634293}
+      - {x: 0.15872788, y: 1.6004648}
+      - {x: -0.70883703, y: 0.97817516}
+      - {x: -0.69895345, y: 0.7336118}
+      - {x: -1.1234038, y: 0.34253788}
+      - {x: -1.113931, y: 0.1832285}
+      - {x: -1.199353, y: 0.07725048}
+      - {x: -1.0700643, y: -0.00063705444}
+      - {x: -1.2754252, y: -0.14869404}
+      - {x: -1.0113146, y: -0.27282143}
+      - {x: -1.0641651, y: -0.483796}
+      - {x: 1.0046178, y: -0.8914678}
+      - {x: 1.4362513, y: 0.06567669}
+      - {x: 1.3269998, y: 0.2246818}
+--- !u!114 &1397205565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1397205563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc03961113fa349c09cb06ef2911013d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickEnabled: 1
+  hoverCursor: {fileID: 0}
+  useEventSystem: 0
+  activateDistance: 0
+--- !u!4 &1397205566
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1397205563}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.043, y: -14.024, z: -0.0000048673246}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1436941137
 GameObject:
   m_ObjectHideFlags: 0
@@ -1922,7 +2211,6 @@ GameObject:
   - component: {fileID: 1977322323}
   - component: {fileID: 1977322325}
   - component: {fileID: 1977322324}
-  - component: {fileID: 1977322322}
   - component: {fileID: 1977322330}
   - component: {fileID: 1977322331}
   - component: {fileID: 1977322329}
@@ -1980,11 +2268,20 @@ GameObject:
   - component: {fileID: 1977322384}
   - component: {fileID: 1977322394}
   - component: {fileID: 1977322393}
-  - component: {fileID: 1977322392}
   - component: {fileID: 1977322391}
   - component: {fileID: 1977322388}
   - component: {fileID: 1977322389}
   - component: {fileID: 1977322390}
+  - component: {fileID: 1977322404}
+  - component: {fileID: 1977322396}
+  - component: {fileID: 1977322403}
+  - component: {fileID: 1977322402}
+  - component: {fileID: 1977322401}
+  - component: {fileID: 1977322397}
+  - component: {fileID: 1977322400}
+  - component: {fileID: 1977322399}
+  - component: {fileID: 1977322398}
+  - component: {fileID: 1977322395}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -2005,11 +2302,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 142.653, y: 152.79254}
+  scrollPos: {x: 102.18256, y: 216.01021}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 404.8
-  zoom: 0.88
+  blockViewHeight: 407.8
+  zoom: 1
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -2017,8 +2314,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1977322388}
-  selectedCommands: []
+  - {fileID: 1977322396}
+  selectedCommands:
+  - {fileID: 1977322395}
   variables:
   - {fileID: 1977322339}
   - {fileID: 1977322338}
@@ -2036,34 +2334,6 @@ MonoBehaviour:
   hideCommands: []
   luaEnvironment: {fileID: 0}
   luaBindingName: flowchart
---- !u!114 &1977322322
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1977322320}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 3
-  indentLevel: 0
-  storyText: " I don\u2019t know. I DON\u2019T KNOW. But you know what? YOU COULD\u2019VE
-    DONE SOMETHING. ANYTHING. BUT YOU STOOD THERE"
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &1977322323
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2080,7 +2350,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 337.4179
     y: 59.373077
-    width: 136.36363
+    width: 138
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2090,7 +2360,6 @@ MonoBehaviour:
   eventHandler: {fileID: 1977322325}
   commandList:
   - {fileID: 1977322324}
-  - {fileID: 1977322322}
   suppressAllAutoSelections: 0
 --- !u!114 &1977322324
 MonoBehaviour:
@@ -2106,9 +2375,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2
   indentLevel: 0
-  storyText: When did it go wrong? When was there a time where I was me. Stable.
-    Happy. Was it when big bro got his brains blown out? Was it when Aaron went from
-    human to flat stanley in seconds?
+  storyText: 'Poyo!
+
+'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2168,7 +2437,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 179.94037
     y: 56.597
-    width: 111.81818
+    width: 112.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2237,7 +2506,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 491.20898
     y: 60.134277
-    width: 153.63635
+    width: 155.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2299,7 +2568,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 346.06384
     y: -18.972473
-    width: 120
+    width: 120.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2377,7 +2646,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 516.40424
     y: -16.000046
-    width: 110.90909
+    width: 111.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3622,7 +3891,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 160.55669
     y: -19.013845
-    width: 148.18182
+    width: 149.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3685,7 +3954,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 332.7967
     y: -103.6747
-    width: 143.63635
+    width: 144.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4026,7 +4295,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 187.14482
     y: -105.37556
-    width: 101.81818
+    width: 102
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4653,7 +4922,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 520.0658
     y: -95.490295
-    width: 119.090904
+    width: 119.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5850,7 +6119,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 451.20917
     y: 149.22513
-    width: 197.27272
+    width: 199.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5912,34 +6181,6 @@ MonoBehaviour:
   suppressBlockAutoSelect: 0
   clickableObject: {fileID: 1840294055}
   waitFrames: 1
---- !u!114 &1977322392
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1977322320}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 65
-  indentLevel: 0
-  storyText: " I don\u2019t know. I DON\u2019T KNOW. But you know what? YOU COULD\u2019VE
-    DONE SOMETHING. ANYTHING. BUT YOU STOOD THERE"
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &1977322393
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5954,9 +6195,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 64
   indentLevel: 0
-  storyText: When did it go wrong? When was there a time where I was me. Stable.
-    Happy. Was it when big bro got his brains blown out? Was it when Aaron went from
-    human to flat stanley in seconds?
+  storyText: 'Poyo!
+
+'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5985,7 +6226,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 239.23633
     y: 146.64575
-    width: 180
+    width: 182
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5995,7 +6236,247 @@ MonoBehaviour:
   eventHandler: {fileID: 1977322391}
   commandList:
   - {fileID: 1977322393}
-  - {fileID: 1977322392}
+  suppressAllAutoSelections: 0
+--- !u!114 &1977322395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1977322320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 76
+  indentLevel: 0
+  storyText: "A bunch of papers. \n"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1977322396
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1977322320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 662.81744
+    y: 150.98979
+    width: 89.2
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 71
+  blockName: papers
+  description: 
+  eventHandler: {fileID: 1977322397}
+  commandList:
+  - {fileID: 1977322395}
+  suppressAllAutoSelections: 0
+--- !u!114 &1977322397
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1977322320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a49012bdc794e429686c1eff7d9ced90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 1977322396}
+  suppressBlockAutoSelect: 0
+  clickableObject: {fileID: 1397205565}
+  waitFrames: 1
+--- !u!114 &1977322398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1977322320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 75
+  indentLevel: 0
+  storyText: 'More of Corbin''s stuff.
+
+'
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1977322399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1977322320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 74
+  indentLevel: 0
+  storyText: 
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1977322400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1977322320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 73
+  indentLevel: 0
+  storyText: "... When he died we packed up the photos of him we had and put them
+    in the attic. It was if he was never here to begin with after the packing. \n"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1977322401
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1977322320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a49012bdc794e429686c1eff7d9ced90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 1977322404}
+  suppressBlockAutoSelect: 0
+  clickableObject: {fileID: 978696244}
+  waitFrames: 1
+--- !u!114 &1977322402
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1977322320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a49012bdc794e429686c1eff7d9ced90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 1977322403}
+  suppressBlockAutoSelect: 0
+  clickableObject: {fileID: 0}
+  waitFrames: 1
+--- !u!114 &1977322403
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1977322320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 652.81744
+    y: -19.010208
+    width: 133.2
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 72
+  blockName: PictureFrames
+  description: 
+  eventHandler: {fileID: 1977322402}
+  commandList:
+  - {fileID: 1977322400}
+  suppressAllAutoSelections: 0
+--- !u!114 &1977322404
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1977322320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 662.81744
+    y: 58.98979
+    width: 85.2
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 70
+  blockName: Boxes
+  description: 
+  eventHandler: {fileID: 1977322401}
+  commandList:
+  - {fileID: 1977322399}
+  - {fileID: 1977322398}
   suppressAllAutoSelections: 0
 --- !u!1 &2026072825
 GameObject:
