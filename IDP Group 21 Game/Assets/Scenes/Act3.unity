@@ -4020,7 +4020,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 64.72728
     y: 69.86364
-    width: 77.2165
+    width: 77.21651
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4043,11 +4043,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 298.79968, y: -299.964}
+  scrollPos: {x: 320.77078, y: -48.89228}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 458.8
-  zoom: 0.96999985
+  zoom: 0.96999955
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -4055,9 +4055,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 666684239}
-  selectedCommands:
-  - {fileID: 666684305}
+  - {fileID: 666684129}
+  selectedCommands: []
   variables:
   - {fileID: 666684139}
   - {fileID: 666684232}
@@ -4116,7 +4115,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parentBlock: {fileID: 666684125}
   suppressBlockAutoSelect: 0
-  clickableObject: {fileID: 564513612}
+  clickableObject: {fileID: 1467693314}
   waitFrames: 1
 --- !u!114 &666684125
 MonoBehaviour:
@@ -4132,14 +4131,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 261.2402
-    y: 224.34607
-    width: 87.93815
+    x: 154.02362
+    y: 226.21935
+    width: 86.28868
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 3
-  blockName: Door 3
+  blockName: Door 2
   description: 
   eventHandler: {fileID: 666684124}
   commandList:
@@ -4177,7 +4176,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parentBlock: {fileID: 666684127}
   suppressBlockAutoSelect: 0
-  clickableObject: {fileID: 1467693314}
+  clickableObject: {fileID: 379583411}
   waitFrames: 1
 --- !u!114 &666684127
 MonoBehaviour:
@@ -4193,14 +4192,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 143.51299
-    y: 220.21927
-    width: 86.288666
+    x: 66.57051
+    y: 226.40485
+    width: 85.463936
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 2
-  blockName: Door 2
+  blockName: Door 1
   description: 
   eventHandler: {fileID: 666684126}
   commandList:
@@ -4245,7 +4244,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parentBlock: {fileID: 666684129}
   suppressBlockAutoSelect: 0
-  clickableObject: {fileID: 379583411}
+  clickableObject: {fileID: 564513612}
   waitFrames: 1
 --- !u!114 &666684129
 MonoBehaviour:
@@ -4261,14 +4260,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 31.920765
-    y: 225.32028
-    width: 85.46392
+    x: 268.00333
+    y: 228.41307
+    width: 87.93816
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 1
-  blockName: Door 1
+  blockName: Door 3
   description: 
   eventHandler: {fileID: 666684128}
   commandList:
@@ -5126,7 +5125,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scope: 0
   key: DoorsLocked
-  value: 1
+  value: 0
 --- !u!114 &666684140
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5215,7 +5214,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -146.16402
     y: 251.61884
-    width: 82.16495
+    width: 82.16496
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7611,7 +7610,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 238.39557
     y: 375.9011
-    width: 78.86598
+    width: 78.866
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7679,7 +7678,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 68.151535
     y: 388.09622
-    width: 115.15465
+    width: 115.15467
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7776,7 +7775,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -75.54318
     y: 481.3112
-    width: 96.18558
+    width: 96.18559
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7819,9 +7818,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 323.5945
-    y: 503.05713
-    width: 125.8763
+    x: 322.5636
+    y: 502.0262
+    width: 125.87633
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7864,9 +7863,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 181.8498
+    x: 180.81886
     y: 501.71735
-    width: 115.15465
+    width: 115.15467
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7992,9 +7991,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 315.7709
+    x: 314.74
     y: 568.9677
-    width: 114.3299
+    width: 114.32993
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8038,7 +8037,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 179.50407
     y: 566.8733
-    width: 119.27836
+    width: 119.27839
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9299,7 +9298,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2.9181347
     y: 612.8985
-    width: 122.57733
+    width: 122.577354
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10319,7 +10318,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -217.78217
     y: 396.4513
-    width: 173.71136
+    width: 173.7114
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12250,7 +12249,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &666684300
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -12812,7 +12811,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &666684304
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -12833,7 +12832,7 @@ MonoBehaviour:
   targetGameObjectOLD: {fileID: 0}
 --- !u!114 &666684305
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
