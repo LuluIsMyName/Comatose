@@ -931,7 +931,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1976583243}
+  selectedFlowchart: {fileID: 1495679501}
 --- !u!4 &318191076
 Transform:
   m_ObjectHideFlags: 1
@@ -4727,9 +4727,21 @@ PrefabInstance:
       value: 230.41077
       objectReference: {fileID: 0}
     - target: {fileID: 4081300800242572452, guid: 62d4204a044f5234e95be58fefaf04d9, type: 3}
+      propertyPath: variables.Array.size
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 4081300800242572452, guid: 62d4204a044f5234e95be58fefaf04d9, type: 3}
       propertyPath: variablesScrollPos.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4081300800242572452, guid: 62d4204a044f5234e95be58fefaf04d9, type: 3}
+      propertyPath: variables.Array.data[15]
+      value: 
+      objectReference: {fileID: 1495679502}
+    - target: {fileID: 4081300800242572452, guid: 62d4204a044f5234e95be58fefaf04d9, type: 3}
+      propertyPath: variables.Array.data[16]
+      value: 
+      objectReference: {fileID: 1495679503}
     - target: {fileID: 4081300800242572452, guid: 62d4204a044f5234e95be58fefaf04d9, type: 3}
       propertyPath: selectedBlocks.Array.size
       value: 0
@@ -4974,6 +4986,47 @@ PrefabInstance:
     - {fileID: 4081300800242572502, guid: 62d4204a044f5234e95be58fefaf04d9, type: 3}
     - {fileID: 4081300800242572454, guid: 62d4204a044f5234e95be58fefaf04d9, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 62d4204a044f5234e95be58fefaf04d9, type: 3}
+--- !u!114 &1495679501 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4081300800242572452, guid: 62d4204a044f5234e95be58fefaf04d9, type: 3}
+  m_PrefabInstance: {fileID: 1495679500}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 912120556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1495679502
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 912120556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: Survey
+  value: 0
+--- !u!114 &1495679503
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 912120556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4580f28dd8581476b810b38eea2f1316, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: TimeLeft
+  value: 
 --- !u!1 &1510603335
 GameObject:
   m_ObjectHideFlags: 0
@@ -5357,6 +5410,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 569834304746208267, guid: 878f9bedecdc34443909deba4c34e671, type: 3}
+      propertyPath: flowchart
+      value: 
+      objectReference: {fileID: 1495679501}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 878f9bedecdc34443909deba4c34e671, type: 3}
 --- !u!1 &1955302373
@@ -5491,6 +5548,7 @@ GameObject:
   - component: {fileID: 1976583278}
   - component: {fileID: 1976583277}
   - component: {fileID: 1976583276}
+  - component: {fileID: 1976583283}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -6402,6 +6460,21 @@ MonoBehaviour:
     booleanRef: {fileID: 0}
     booleanVal: 1
   targetGameObjectOLD: {fileID: 0}
+--- !u!114 &1976583283
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1976583242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 0
+  key: Var
+  value: 0
 --- !u!114 &2002962191 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3226724346109708111, guid: 6ae31848d6cafc34fbf73ac94803884b, type: 3}

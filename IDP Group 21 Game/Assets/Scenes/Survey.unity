@@ -1341,7 +1341,10 @@ GameObject:
   - component: {fileID: 800197350}
   - component: {fileID: 800197355}
   - component: {fileID: 800197357}
-  - component: {fileID: 800197356}
+  - component: {fileID: 800197359}
+  - component: {fileID: 800197358}
+  - component: {fileID: 800197360}
+  - component: {fileID: 800197361}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1363,7 +1366,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scope: 2
   key: Username
-  value: Jayden
+  value: 
 --- !u!114 &800197351
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1393,8 +1396,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 65.27586
-    y: 73.44827
+    x: 64.27586
+    y: 74.44827
     width: 112.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1406,6 +1409,8 @@ MonoBehaviour:
   commandList:
   - {fileID: 800197355}
   - {fileID: 800197357}
+  - {fileID: 800197359}
+  - {fileID: 800197361}
   suppressAllAutoSelections: 0
 --- !u!114 &800197353
 MonoBehaviour:
@@ -1434,10 +1439,11 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 800197352}
   selectedCommands:
-  - {fileID: 800197357}
+  - {fileID: 800197355}
   variables:
   - {fileID: 800197350}
-  - {fileID: 800197356}
+  - {fileID: 800197358}
+  - {fileID: 800197360}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -1483,21 +1489,6 @@ MonoBehaviour:
     stringVal: '{$Username}'
   description: 
   _textObjectObsolete: {fileID: 0}
---- !u!114 &800197356
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 800197349}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scope: 2
-  key: Survey
-  value: 0
 --- !u!114 &800197357
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1513,7 +1504,7 @@ MonoBehaviour:
   itemId: 2
   indentLevel: 0
   anyVar:
-    variable: {fileID: 800197356}
+    variable: {fileID: 800197360}
     data:
       animatorData:
         animatorRef: {fileID: 0}
@@ -1650,6 +1641,74 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &800197358
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 800197349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4580f28dd8581476b810b38eea2f1316, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: TimeLeft
+  value: 
+--- !u!114 &800197359
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 800197349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 3
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  durationOLD: 0
+--- !u!114 &800197360
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 800197349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: Survey
+  value: 0
+--- !u!114 &800197361
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 800197349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78c0367bf08d147bd80b5454de50e9d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 4
+  indentLevel: 0
+  targetTextObject: {fileID: 1945428751}
+  text:
+    stringRef: {fileID: 800197358}
+    stringVal: 
+  description: 
+  _textObjectObsolete: {fileID: 0}
 --- !u!1 &852691033
 GameObject:
   m_ObjectHideFlags: 0

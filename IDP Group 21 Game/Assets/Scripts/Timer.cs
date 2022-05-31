@@ -29,7 +29,7 @@ public class Timer : MonoBehaviour
     public static bool Act3Hint3Used;
     public static bool Answer3Used;
     public static bool Survey;
-    public static float TimeLeft;
+    public static string TimeLeft;
 
 
     // Start is called before the first frame update
@@ -55,7 +55,6 @@ public class Timer : MonoBehaviour
         if (timerActive == true)
         {
             currentTime = currentTime - Time.deltaTime;
-            Debug.Log(currentTime);
             if (currentTime <= 0)
             {
                 timerActive = false;
@@ -72,18 +71,22 @@ public class Timer : MonoBehaviour
         {
             timerText.text = time.Minutes.ToString() + ":" + time.Seconds.ToString();
         }
+
+        Survey = flowchart.GetBooleanVariable("Survey");
+        
         if (Survey == true)
         {
-            // Survey = flowchart.GetBooleanVariable("Survey");
             timerActive = false;
-            TimeLeft = currentTime;
-            // flowchart.SetIntegerVariable("TimeLeft", TimeLeft);
+            TimeLeft = Mathf.RoundToInt(currentTime).ToString();
+            flowchart.SetStringVariable("TimeLeft", TimeLeft);
         }
     }
     void OutputTime()
     {
         time = timerText.text;
         Debug.Log(time);
+        TimeLeft = Mathf.RoundToInt(currentTime).ToString();
+        Debug.Log(TimeLeft);
     }
     void RoomChecker()
     {
