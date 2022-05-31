@@ -28,8 +28,6 @@ public class Timer : MonoBehaviour
     public static bool Act3Hint2Used;
     public static bool Act3Hint3Used;
     public static bool Answer3Used;
-    public static bool Survey;
-    public static float TimeLeft;
 
 
     // Start is called before the first frame update
@@ -55,7 +53,6 @@ public class Timer : MonoBehaviour
         if (timerActive == true)
         {
             currentTime = currentTime - Time.deltaTime;
-            Debug.Log(currentTime);
             if (currentTime <= 0)
             {
                 timerActive = false;
@@ -71,13 +68,6 @@ public class Timer : MonoBehaviour
         else 
         {
             timerText.text = time.Minutes.ToString() + ":" + time.Seconds.ToString();
-        }
-        if (Survey == true)
-        {
-            Survey = flowchart.GetBooleanVariable("Survey");
-            timerActive = false;
-            TimeLeft = currentTime;
-            // flowchart.SetIntegerVariable("TimeLeft", TimeLeft);
         }
     }
     void OutputTime()
@@ -178,5 +168,4 @@ public class Timer : MonoBehaviour
             flowchart.SetBooleanVariable("Answer2Used", Answer2Used);
         }
     }
-    
 }
