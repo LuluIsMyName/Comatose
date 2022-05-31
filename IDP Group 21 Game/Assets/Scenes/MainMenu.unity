@@ -364,7 +364,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6995674879497092070, guid: 9da8573f37d48e346851b469ae7e1706, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -19.959057
+      value: -18.93
       objectReference: {fileID: 0}
     - target: {fileID: 6995674879497092070, guid: 9da8573f37d48e346851b469ae7e1706, type: 3}
       propertyPath: m_LocalPosition.z
@@ -516,7 +516,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: a1bb67d74d30f2f44a4452b47a07c3c2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: aaf661ac97be4a446838069790fd7601, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -535,8 +535,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 480879693}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -15, z: 0}
-  m_LocalScale: {x: 3.56, y: 3.56, z: 1}
+  m_LocalPosition: {x: -0.0198, y: -14.9791, z: 0}
+  m_LocalScale: {x: 1.0417687, y: 0.93002933, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -664,6 +664,8 @@ GameObject:
   - component: {fileID: 627554895}
   - component: {fileID: 627554894}
   - component: {fileID: 627554893}
+  - component: {fileID: 627554896}
+  - component: {fileID: 627554897}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -684,19 +686,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 215.26749, y: 289.30295}
+  scrollPos: {x: 76.209724, y: 313.5875}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.64000034
+  zoom: 1
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 627554895}
+  selectedBlocks: []
   selectedCommands: []
   variables: []
   description: 
@@ -738,9 +739,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 67
-    y: 70
-    width: 111.24997
+    x: 435
+    y: 42
+    width: 112.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -748,7 +749,9 @@ MonoBehaviour:
   blockName: New Block
   description: 
   eventHandler: {fileID: 627554884}
-  commandList: []
+  commandList:
+  - {fileID: 627554896}
+  - {fileID: 627554897}
   suppressAllAutoSelections: 0
 --- !u!4 &627554886
 Transform:
@@ -798,9 +801,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 289.8452
-    y: 95.96292
-    width: 76.249985
+    x: 325.8452
+    y: 52.96292
+    width: 77.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -868,7 +871,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 332.04364
     y: -24.366852
-    width: 89.99998
+    width: 90.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -952,7 +955,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 444.23114
     y: -21.241852
-    width: 127.49996
+    width: 128.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -963,6 +966,41 @@ MonoBehaviour:
   commandList:
   - {fileID: 627554894}
   suppressAllAutoSelections: 0
+--- !u!114 &627554896
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 627554879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1902400ccc99b45d69ad01cb86b57d0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 8
+  indentLevel: 0
+  musicClip: {fileID: 8300000, guid: b3d460f2998b8e84c9119f48f6ecb524, type: 3}
+  atTime: 0
+  loop: 1
+  fadeDuration: 1
+--- !u!114 &627554897
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 627554879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4015e84616cc45cfb498561373899d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 9
+  indentLevel: 0
+  volume: 0.8
+  fadeDuration: 1
+  waitUntilFinished: 1
 --- !u!1 &733071717
 GameObject:
   m_ObjectHideFlags: 0

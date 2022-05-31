@@ -748,6 +748,22 @@ GameObject:
   - component: {fileID: 394760795}
   - component: {fileID: 394760796}
   - component: {fileID: 394760797}
+  - component: {fileID: 394760808}
+  - component: {fileID: 394760807}
+  - component: {fileID: 394760806}
+  - component: {fileID: 394760805}
+  - component: {fileID: 394760804}
+  - component: {fileID: 394760803}
+  - component: {fileID: 394760802}
+  - component: {fileID: 394760801}
+  - component: {fileID: 394760800}
+  - component: {fileID: 394760799}
+  - component: {fileID: 394760798}
+  - component: {fileID: 394760809}
+  - component: {fileID: 394760813}
+  - component: {fileID: 394760812}
+  - component: {fileID: 394760811}
+  - component: {fileID: 394760810}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -768,11 +784,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 349.89062, y: 301.88812}
+  scrollPos: {x: 262.5758, y: 256.58475}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.64000034
+  zoom: 0.8200002
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -780,7 +796,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 394760781}
+  - {fileID: 394760805}
   selectedCommands: []
   variables:
   - {fileID: 394760704}
@@ -835,7 +851,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 497.21295
     y: 56.475426
-    width: 93.74998
+    width: 91.95121
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -893,7 +909,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 101.98631
     y: 57.61252
-    width: 111.24997
+    width: 109.512184
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -943,7 +959,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 688.8195
     y: 55.9181
-    width: 73.749985
+    width: 72.43902
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1121,7 +1137,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 592.28796
     y: 59.380577
-    width: 83.749985
+    width: 83.17072
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1130,6 +1146,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 394760702}
   commandList:
+  - {fileID: 394760799}
   - {fileID: 394760700}
   suppressAllAutoSelections: 0
 --- !u!114 &394760702
@@ -2659,7 +2676,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 371.87653
     y: 56.983597
-    width: 123.74996
+    width: 120.24389
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2732,7 +2749,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 187.14482
     y: -106.0149
-    width: 102.49997
+    width: 99.75609
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2762,7 +2779,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 331.15735
     y: -95.47798
-    width: 144.99994
+    width: 139.75607
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3656,7 +3673,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 499.10693
     y: -101.59068
-    width: 121.24996
+    width: 116.341446
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4673,7 +4690,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 158.83255
     y: -13.841431
-    width: 149.99994
+    width: 144.63412
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5207,7 +5224,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 317.41415
     y: 186.94104
-    width: 167.49994
+    width: 162.1951
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5342,7 +5359,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 628.6814
     y: 187.24942
-    width: 127.49996
+    width: 125.12193
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5351,6 +5368,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 394760760}
   commandList:
+  - {fileID: 394760809}
   - {fileID: 394760761}
   suppressAllAutoSelections: 0
 --- !u!114 &394760763
@@ -5978,7 +5996,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 771.11456
     y: 185.42628
-    width: 117.49996
+    width: 114.39023
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6045,7 +6063,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 487.70477
     y: 187.62299
-    width: 137.49995
+    width: 133.90242
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6370,7 +6388,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 775.3484
     y: 57.90271
-    width: 86.249985
+    width: 84.14633
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6456,7 +6474,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 70.67868
     y: 191.10144
-    width: 123.74996
+    width: 120.24389
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6482,7 +6500,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 898.10156
     y: 186.61722
-    width: 79.999985
+    width: 79.26829
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6509,7 +6527,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 882.3484
     y: 55.90271
-    width: 107.49997
+    width: 105.60974
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6671,7 +6689,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 226.38123
     y: 57.53128
-    width: 123.74996
+    width: 121.2195
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6680,6 +6698,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 394760789}
   commandList:
+  - {fileID: 394760798}
   - {fileID: 394760787}
   suppressAllAutoSelections: 0
 --- !u!114 &394760791
@@ -6698,7 +6717,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 222.0195
     y: 187.72275
-    width: 78.749985
+    width: 78.29268
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6769,7 +6788,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 207.96635
     y: 262.11432
-    width: 122.49996
+    width: 120.24389
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6794,9 +6813,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 893.92566
-    y: 254.74915
-    width: 123.74996
+    x: 824.41394
+    y: 260.8467
+    width: 121.2195
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6850,6 +6869,454 @@ MonoBehaviour:
   suppressBlockAutoSelect: 0
   clickableObject: {fileID: 2127546371}
   waitFrames: 1
+--- !u!114 &394760798
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 394760686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 831c208af3cccf24b80cc6f3768919bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 120
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: 3a8885d5196850342b27b6d5ee38166d, type: 3}
+  volume: 1
+  loop: 0
+--- !u!114 &394760799
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 394760686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 831c208af3cccf24b80cc6f3768919bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 119
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: 51a97d45fb89640418dc3a043060df92, type: 3}
+  volume: 1
+  loop: 0
+--- !u!114 &394760800
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 394760686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a49012bdc794e429686c1eff7d9ced90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 394760802}
+  suppressBlockAutoSelect: 0
+  clickableObject: {fileID: 482057926}
+  waitFrames: 1
+--- !u!114 &394760801
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 394760686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 118
+  indentLevel: 0
+  storyText: 'What happened to dad?
+
+'
+  description: 
+  character: {fileID: 527718796}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &394760802
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 394760686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 569.1342
+    y: 261.498
+    width: 60.731705
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 122
+  blockName: IV
+  description: 
+  eventHandler: {fileID: 394760800}
+  commandList:
+  - {fileID: 394760801}
+  suppressAllAutoSelections: 0
+--- !u!114 &394760803
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 394760686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a49012bdc794e429686c1eff7d9ced90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 394760805}
+  suppressBlockAutoSelect: 0
+  clickableObject: {fileID: 1064083534}
+  waitFrames: 1
+--- !u!114 &394760804
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 394760686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 116
+  indentLevel: 0
+  storyText: 'I do NOT remember seeing that. '
+  description: 
+  character: {fileID: 527718796}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &394760805
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 394760686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 472.13422
+    y: 261.5969
+    width: 69.51219
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 121
+  blockName: Car
+  description: 
+  eventHandler: {fileID: 394760803}
+  commandList:
+  - {fileID: 394760804}
+  suppressAllAutoSelections: 0
+--- !u!114 &394760806
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 394760686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 114
+  indentLevel: 0
+  storyText: "A red Mazda speeding. I don't think we bought this back then, but my
+    memory could be fuzzy. \n"
+  description: 
+  character: {fileID: 527718796}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &394760807
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 394760686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a49012bdc794e429686c1eff7d9ced90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 394760808}
+  suppressBlockAutoSelect: 0
+  clickableObject: {fileID: 2089754678}
+  waitFrames: 1
+--- !u!114 &394760808
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 394760686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 366.13422
+    y: 262.498
+    width: 98.78048
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 113
+  blockName: CarNorm
+  description: 
+  eventHandler: {fileID: 394760807}
+  commandList:
+  - {fileID: 394760806}
+  suppressAllAutoSelections: 0
+--- !u!114 &394760809
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 394760686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 831c208af3cccf24b80cc6f3768919bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 123
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: 3a8885d5196850342b27b6d5ee38166d, type: 3}
+  volume: 1
+  loop: 0
+--- !u!114 &394760810
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 394760686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a49012bdc794e429686c1eff7d9ced90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 394760813}
+  suppressBlockAutoSelect: 0
+  clickableObject: {fileID: 1205432746}
+  waitFrames: 1
+--- !u!114 &394760811
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 394760686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 126
+  indentLevel: 0
+  storyText: 'Locked. '
+  description: 
+  character: {fileID: 527718796}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &394760812
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 394760686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 831c208af3cccf24b80cc6f3768919bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 125
+  indentLevel: 0
+  soundClip: {fileID: 8300000, guid: 3a8885d5196850342b27b6d5ee38166d, type: 3}
+  volume: 1
+  loop: 0
+--- !u!114 &394760813
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 394760686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 651.01544
+    y: 262.77518
+    width: 134.87802
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 127
+  blockName: Parent'sDoor(1)
+  description: 
+  eventHandler: {fileID: 394760810}
+  commandList:
+  - {fileID: 394760812}
+  - {fileID: 394760811}
+  suppressAllAutoSelections: 0
+--- !u!1 &482057923
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 482057924}
+  - component: {fileID: 482057926}
+  - component: {fileID: 482057925}
+  m_Layer: 0
+  m_Name: BloodIV
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &482057924
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 482057923}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -14.14, y: -1.38, z: 0.018989094}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1362323941}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &482057925
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 482057923}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.45134592, y: 0.2677803}
+      - {x: 0.39079237, y: 0.40358448}
+      - {x: 0.3747325, y: 0.5302181}
+      - {x: 0.3798418, y: 0.7375212}
+      - {x: 0.43424177, y: 1.0286379}
+      - {x: 0.45859432, y: 1.2811804}
+      - {x: 0.3467927, y: 1.3988123}
+      - {x: 0.27306747, y: 1.6772642}
+      - {x: -0.6478362, y: 1.7762365}
+      - {x: -0.6885729, y: 1.555829}
+      - {x: -0.5296226, y: 1.5578086}
+      - {x: -0.47733116, y: 1.7099085}
+      - {x: -0.21772337, y: 1.6303816}
+      - {x: -0.21140474, y: -2.7547083}
+      - {x: -0.060210586, y: -2.2772434}
+      - {x: -0.07694483, y: -1.4460001}
+      - {x: -0.061634064, y: -0.52981853}
+      - {x: 0.33231163, y: -0.573843}
+      - {x: 0.3455057, y: -0.5331507}
+      - {x: 0.3556552, y: -0.24899101}
+      - {x: 0.303308, y: -0.24064922}
+      - {x: 0.28265762, y: -0.010067999}
+--- !u!114 &482057926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 482057923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc03961113fa349c09cb06ef2911013d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickEnabled: 1
+  hoverCursor: {fileID: 0}
+  useEventSystem: 0
+  activateDistance: 0
 --- !u!1 &496349605 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4916442433890935516, guid: 3c9994b5d9ac98141843ae932d5dfe07, type: 3}
@@ -8004,6 +8471,96 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2266220562934115634, guid: b9ac3c122ba34274199504644e058ba7, type: 3}
   m_PrefabInstance: {fileID: 936758659}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1064083531
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1064083532}
+  - component: {fileID: 1064083534}
+  - component: {fileID: 1064083533}
+  m_Layer: 0
+  m_Name: Car
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1064083532
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1064083531}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -13.68, y: -0.07, z: 0.018989094}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1362323941}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &1064083533
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1064083531}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0, y: 1}
+      - {x: -1.2166095, y: 1.0171573}
+      - {x: -1.2139969, y: -1.1728896}
+      - {x: 0.23979616, y: -1.1936493}
+      - {x: 0.27958107, y: -1.0061817}
+      - {x: 0.4239459, y: -0.7972603}
+      - {x: 0.6166359, y: -0.674381}
+      - {x: 0.80773115, y: -0.6398964}
+      - {x: 0.95100117, y: -0.63462734}
+      - {x: 1.1097059, y: -0.67652225}
+      - {x: 1.2593379, y: -0.790082}
+      - {x: 1.360609, y: -0.9780302}
+      - {x: 1.4187818, y: -1.1540251}
+      - {x: 8.712746, y: -1.1370096}
+      - {x: 8.744888, y: 1.0109339}
+      - {x: 0.8921952, y: 0.99012274}
+--- !u!114 &1064083534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1064083531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc03961113fa349c09cb06ef2911013d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickEnabled: 1
+  hoverCursor: {fileID: 0}
+  useEventSystem: 1
+  activateDistance: 0
 --- !u!1 &1086343066
 GameObject:
   m_ObjectHideFlags: 0
@@ -8222,7 +8779,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1205432743
 GameObject:
@@ -8366,8 +8923,10 @@ Transform:
   - {fileID: 1205432744}
   - {fileID: 2127546370}
   - {fileID: 929499674}
+  - {fileID: 482057924}
+  - {fileID: 1064083532}
   m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1372149212 stripped
 GameObject:
@@ -8473,7 +9032,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1519266650
 GameObject:
@@ -9513,6 +10072,96 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2089754676
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2089754679}
+  - component: {fileID: 2089754678}
+  - component: {fileID: 2089754677}
+  m_Layer: 0
+  m_Name: CarNorm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!60 &2089754677
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2089754676}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0, y: 1}
+      - {x: -1.2166095, y: 1.0171573}
+      - {x: -1.2139969, y: -1.1728896}
+      - {x: 0.23979616, y: -1.1936493}
+      - {x: 0.27958107, y: -1.0061817}
+      - {x: 0.4239459, y: -0.7972603}
+      - {x: 0.6166359, y: -0.674381}
+      - {x: 0.80773115, y: -0.6398964}
+      - {x: 0.95100117, y: -0.63462734}
+      - {x: 1.1097059, y: -0.67652225}
+      - {x: 1.2593379, y: -0.790082}
+      - {x: 1.360609, y: -0.9780302}
+      - {x: 1.4187818, y: -1.1540251}
+      - {x: 8.712746, y: -1.1370096}
+      - {x: 8.744888, y: 1.0109339}
+      - {x: 0.8921952, y: 0.99012274}
+--- !u!114 &2089754678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2089754676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc03961113fa349c09cb06ef2911013d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickEnabled: 1
+  hoverCursor: {fileID: 0}
+  useEventSystem: 1
+  activateDistance: 0
+--- !u!4 &2089754679
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2089754676}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -5.93, y: 4, z: 0.0323532}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2127546369
 GameObject:
