@@ -1000,6 +1000,9 @@ GameObject:
   - component: {fileID: 407806856}
   - component: {fileID: 407806855}
   - component: {fileID: 407806859}
+  - component: {fileID: 407806860}
+  - component: {fileID: 407806862}
+  - component: {fileID: 407806863}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1020,11 +1023,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 164.78323, y: 146.4632}
+  scrollPos: {x: 123.34709, y: 187.16275}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 402.8
-  zoom: 0.84999967
+  zoom: 1
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1038,6 +1041,7 @@ MonoBehaviour:
   - {fileID: 407806763}
   - {fileID: 407806766}
   - {fileID: 407806783}
+  - {fileID: 407806863}
   - {fileID: 407806785}
   - {fileID: 407806784}
   - {fileID: 407806827}
@@ -1095,7 +1099,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 278.28143
     y: 81.566124
-    width: 78.235306
+    width: 78.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1169,7 +1173,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 41.7942
     y: 73.45544
-    width: 109.29414
+    width: 112.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1273,7 +1277,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 350.3543
     y: -13.382599
-    width: 77.29413
+    width: 79.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1372,7 +1376,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 190.27438
     y: 84.55916
-    width: 80.11766
+    width: 82.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1509,7 +1513,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 393.4455
     y: 86.36041
-    width: 95.17649
+    width: 97.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1555,7 +1559,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 499.79602
     y: 88.80701
-    width: 84.82355
+    width: 86.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4022,7 +4026,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 221.04926
     y: -102.38606
-    width: 98.9412
+    width: 102
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4052,7 +4056,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 332.7967
     y: -103.6747
-    width: 138.47063
+    width: 144.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4946,7 +4950,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 503.73672
     y: -100.490295
-    width: 114.94121
+    width: 119.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5685,7 +5689,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 161.82251
     y: -16.4822
-    width: 143.17651
+    width: 149.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5961,7 +5965,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 351.44537
     y: 156.20255
-    width: 136.58827
+    width: 141.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6058,7 +6062,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 515.23553
     y: 155.16188
-    width: 126.23533
+    width: 130.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6083,12 +6087,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 79
   indentLevel: 0
-  storyText: "There\u2019s a post note stuck on one of the pages. The post it note
-    has the handwriting of your dad. The note says,\u201DFor *insert player\u2019s
-    name\u2019s birthday* I could make a puzzle using this. Instead of in a\u2019s
-    and b\u2019s I\u2019ll have them as beeps! :)"
+  storyText: "There's another cassette tape. On the note there's written,\" Beep
+    1 = B, Beep 2 = A, Beep 3 = Sequence of A's & B's are over. \nExample: aaaab
+    = beep 2, beep 2, beep 2, beep 2, beep 1 and beep 3 to signify the sequence is
+    done.\" \n\n"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1409488785}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -6115,7 +6119,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 615.51105
     y: 87.95303
-    width: 119.64709
+    width: 124.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6125,7 +6129,9 @@ MonoBehaviour:
   eventHandler: {fileID: 407806826}
   commandList:
   - {fileID: 407806825}
+  - {fileID: 407806860}
   - {fileID: 407806823}
+  - {fileID: 407806862}
   suppressAllAutoSelections: 0
 --- !u!114 &407806825
 MonoBehaviour:
@@ -7094,7 +7100,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 643.15234
     y: -11.426056
-    width: 98.00002
+    width: 101.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7121,7 +7127,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 556.15234
     y: -15.602527
-    width: 73.52942
+    width: 75.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7191,7 +7197,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 454.15237
     y: -14.426056
-    width: 90.47061
+    width: 94
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7261,7 +7267,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 761.15234
     y: -101.426056
-    width: 110.23532
+    width: 113.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7361,7 +7367,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 751.15234
     y: -11.426056
-    width: 139.4118
+    width: 145.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7432,7 +7438,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 644.15234
     y: -102.426056
-    width: 99.88237
+    width: 104.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7530,7 +7536,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 209.06268
     y: 157.46509
-    width: 119.64709
+    width: 122.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7569,6 +7575,201 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &407806860
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 407806734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 110
+  indentLevel: 0
+  storyText: "Dad must\u2019ve misplaced another one of his books. Mind as well take
+    it."
+  description: 
+  character: {fileID: 1409488785}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &407806862
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 407806734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 111
+  indentLevel: 0
+  anyVar:
+    variable: {fileID: 407806863}
+    data:
+      animatorData:
+        animatorRef: {fileID: 0}
+        animatorVal: {fileID: 0}
+      audioSourceData:
+        audioSourceRef: {fileID: 0}
+        audioSourceVal: {fileID: 0}
+      booleanData:
+        booleanRef: {fileID: 0}
+        booleanVal: 0
+      collectionData:
+        collectionRef: {fileID: 0}
+        collectionVal: {fileID: 0}
+      collider2DData:
+        collider2DRef: {fileID: 0}
+        collider2DVal: {fileID: 0}
+      colliderData:
+        colliderRef: {fileID: 0}
+        colliderVal: {fileID: 0}
+      colorData:
+        colorRef: {fileID: 0}
+        colorVal: {r: 0, g: 0, b: 0, a: 0}
+      floatData:
+        floatRef: {fileID: 0}
+        floatVal: 0
+      gameObjectData:
+        gameObjectRef: {fileID: 0}
+        gameObjectVal: {fileID: 0}
+      integerData:
+        integerRef: {fileID: 0}
+        integerVal: 0
+      materialData:
+        materialRef: {fileID: 0}
+        materialVal: {fileID: 0}
+      matrix4x4Data:
+        matrix4x4Ref: {fileID: 0}
+        matrix4x4Val:
+          e00: 0
+          e01: 0
+          e02: 0
+          e03: 0
+          e10: 0
+          e11: 0
+          e12: 0
+          e13: 0
+          e20: 0
+          e21: 0
+          e22: 0
+          e23: 0
+          e30: 0
+          e31: 0
+          e32: 0
+          e33: 0
+      objectData:
+        objectRef: {fileID: 0}
+        objectVal: {fileID: 0}
+      quaternionData:
+        quaternionRef: {fileID: 0}
+        quaternionVal: {x: 0, y: 0, z: 0, w: 0}
+      rigidbody2DData:
+        rigidbody2DRef: {fileID: 0}
+        rigidbody2DVal: {fileID: 0}
+      rigidbodyData:
+        rigidbodyRef: {fileID: 0}
+        rigidbodyVal: {fileID: 0}
+      spriteData:
+        spriteRef: {fileID: 0}
+        spriteVal: {fileID: 0}
+      stringData:
+        stringRef: {fileID: 0}
+        stringVal: 
+      textureData:
+        textureRef: {fileID: 0}
+        textureVal: {fileID: 0}
+      transformData:
+        transformRef: {fileID: 0}
+        transformVal: {fileID: 0}
+      vector2Data:
+        vector2Ref: {fileID: 0}
+        vector2Val: {x: 0, y: 0}
+      vector3Data:
+        vector3Ref: {fileID: 0}
+        vector3Val: {x: 0, y: 0, z: 0}
+      vector4Data:
+        vector4Ref: {fileID: 0}
+        vector4Val: {x: 0, y: 0, z: 0, w: 0}
+  setOperator: 1
+  variable: {fileID: 0}
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+  animatorData:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  audioSourceData:
+    audioSourceRef: {fileID: 0}
+    audioSourceVal: {fileID: 0}
+  colorData:
+    colorRef: {fileID: 0}
+    colorVal: {r: 0, g: 0, b: 0, a: 0}
+  gameObjectData:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 0}
+  materialData:
+    materialRef: {fileID: 0}
+    materialVal: {fileID: 0}
+  objectData:
+    objectRef: {fileID: 0}
+    objectVal: {fileID: 0}
+  rigidbody2DData:
+    rigidbody2DRef: {fileID: 0}
+    rigidbody2DVal: {fileID: 0}
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  textureData:
+    textureRef: {fileID: 0}
+    textureVal: {fileID: 0}
+  transformData:
+    transformRef: {fileID: 0}
+    transformVal: {fileID: 0}
+  vector2Data:
+    vector2Ref: {fileID: 0}
+    vector2Val: {x: 0, y: 0}
+  vector3Data:
+    vector3Ref: {fileID: 0}
+    vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &407806863
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 407806734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: Cassette2
+  value: 0
 --- !u!114 &414534919 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5500098936716174130, guid: 7e5e63a5950b9f445b3b6a15bd4bb62e, type: 3}
