@@ -60,7 +60,15 @@ public class Timer : MonoBehaviour
             }
         }
         TimeSpan time =TimeSpan.FromSeconds(currentTime);
-        timerText.text = time.Minutes.ToString() + ":" + time.Seconds.ToString();
+        // timerText.text = time.Minutes.ToString() + ":" + time.Seconds.ToString();
+        if (time.Seconds < 10)
+        {
+            timerText.text = time.Minutes.ToString() + ":0" + time.Seconds.ToString();
+        }
+        else 
+        {
+            timerText.text = time.Minutes.ToString() + ":" + time.Seconds.ToString();
+        }
     }
     void OutputTime()
     {
