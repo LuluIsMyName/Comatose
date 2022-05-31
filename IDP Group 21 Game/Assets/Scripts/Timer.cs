@@ -62,7 +62,7 @@ public class Timer : MonoBehaviour
             }
         }
         TimeSpan time =TimeSpan.FromSeconds(currentTime);
-        // timerText.text = time.Minutes.ToString() + ":" + time.Seconds.ToString();
+        timerText.text = time.Minutes.ToString() + ":" + time.Seconds.ToString();
         if (time.Seconds < 10)
         {
             timerText.text = time.Minutes.ToString() + ":0" + time.Seconds.ToString();
@@ -80,7 +80,17 @@ public class Timer : MonoBehaviour
             TimeLeft = Mathf.RoundToInt(currentTime).ToString();
             flowchart.SetStringVariable("TimeLeft", TimeLeft);
         }
+        
     }
+    /*
+    void CheckPuzzle1Completion()
+    {
+        if (Puzzle1Completed & Puzzle1TimeTaken)
+        {
+
+        }
+    }
+    */
     void OutputTime()
     {
         time = timerText.text;
