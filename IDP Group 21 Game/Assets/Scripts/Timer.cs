@@ -31,6 +31,17 @@ public class Timer : MonoBehaviour
     public static bool Survey;
     public static string TimeLeft;
 
+    public static bool Puzzle1Completed;
+    public static string Puzzle1Time;
+    public static bool Puzzle2Completed;
+    public static string Puzzle2Time;
+    public static bool Puzzle3Completed;
+    public static string Puzzle3Time;
+    public static int TempGameCompletionTime;
+    public static string GameCompletionTime;
+    public static int Puzzle1Hints = 0;
+    public static string Puzzle2Hints = "0";
+    public static string Puzzle3Hints = "0";
 
     // Start is called before the first frame update
     void Awake()
@@ -79,18 +90,49 @@ public class Timer : MonoBehaviour
             timerActive = false;
             TimeLeft = Mathf.RoundToInt(currentTime).ToString();
             flowchart.SetStringVariable("TimeLeft", TimeLeft);
+
+            //these next two lines show how to make it so that it shows how many seconds it took instead of how many seconds left
+            //we might either want this on the other 3 puzzle or we can just have it for game completion
+            TempGameCompletionTime = 1800 - Mathf.RoundToInt(currentTime);
+            GameCompletionTime = TempGameCompletionTime.ToString();
+            flowchart.SetStringVariable("GameCompletionTime", GameCompletionTime);
         }
+        Puzzle1Completed = flowchart.GetBooleanVariable("Puzzle1Completed");
+        CheckPuzzle1Completion();
         
+        Puzzle2Completed = flowchart.GetBooleanVariable("Puzzle2Completed");
+        CheckPuzzle2Completion();
+
+        Puzzle3Completed = flowchart.GetBooleanVariable("Puzzle3Completed");
+        CheckPuzzle3Completion();
+
     }
-    /*
+    
     void CheckPuzzle1Completion()
     {
-        if (Puzzle1Completed & Puzzle1TimeTaken)
-        {
-
+        if (Puzzle1Completed == true & Puzzle1Time == null)
+        {   
+            Puzzle1Time = Mathf.RoundToInt(currentTime).ToString();
+            flowchart.SetStringVariable("Puzzle1Time", Puzzle1Time);
         }
     }
-    */
+    void CheckPuzzle2Completion()
+    {
+        if (Puzzle2Completed == true & Puzzle2Time == null)
+        {
+            Puzzle2Time = Mathf.RoundToInt(currentTime).ToString();
+            flowchart.SetStringVariable("Puzzle2Time", Puzzle2Time);
+        }
+    }
+    void CheckPuzzle3Completion()
+    {
+        if (Puzzle3Completed == true & Puzzle3Time == null)
+        {
+            Puzzle3Time = Mathf.RoundToInt(currentTime).ToString();
+            flowchart.SetStringVariable("Puzzle3Time", Puzzle3Time);
+        }
+    }
+
     void OutputTime()
     {
         time = timerText.text;
@@ -98,17 +140,14 @@ public class Timer : MonoBehaviour
         TimeLeft = Mathf.RoundToInt(currentTime).ToString();
         Debug.Log(TimeLeft);
     }
-    void RoomChecker()
-    {
-        room = flowchart.GetStringVariable("CurrentRoom");
-        Debug.Log(room);
-    }
     public void Act1Hint1()
     {
         Hint1Used = flowchart.GetBooleanVariable("Hint1Used");
 
         if (Hint1Used == false)
-        {
+        {   
+            Puzzle1Hints += 1;
+            flowchart.SetStringVariable("Puzzle1Hints", Puzzle1Hints.ToString());
             currentTime = currentTime - 60;
             Hint1Used = true;
             flowchart.SetBooleanVariable("Hint1Used", Hint1Used);
@@ -120,6 +159,8 @@ public class Timer : MonoBehaviour
 
         if (Hint2Used == false)
         {
+            Puzzle1Hints += 1;
+            flowchart.SetStringVariable("Puzzle1Hints", Puzzle1Hints.ToString());
             currentTime = currentTime - 60;
             Hint2Used = true;
             flowchart.SetBooleanVariable("Hint2Used", Hint2Used);
@@ -130,7 +171,9 @@ public class Timer : MonoBehaviour
         Hint3Used = flowchart.GetBooleanVariable("Hint3Used");
 
         if (Hint3Used == false)
-        {
+        {   
+            Puzzle1Hints += 1;
+            flowchart.SetStringVariable("Puzzle1Hints", Puzzle1Hints.ToString());
             currentTime = currentTime - 60;
             Hint3Used = true;
             flowchart.SetBooleanVariable("Hint3Used", Hint3Used);
@@ -141,7 +184,9 @@ public class Timer : MonoBehaviour
         Answer1Used = flowchart.GetBooleanVariable("Answer1Used");
 
         if (Answer1Used == false)
-        {
+        {   
+            Puzzle1Hints += 1;
+            flowchart.SetStringVariable("Puzzle1Hints", Puzzle1Hints.ToString());
             currentTime = currentTime - 60;
             Answer1Used = true;
             flowchart.SetBooleanVariable("Answer1Used", Answer1Used);
@@ -152,7 +197,9 @@ public class Timer : MonoBehaviour
         Act2Hint1Used = flowchart.GetBooleanVariable("Act2Hint1Used");
 
         if (Act2Hint1Used == false)
-        {
+        {   
+            Puzzle2Hints = "1";
+            flowchart.SetStringVariable("Puzzle2Hints", Puzzle2Hints);
             currentTime = currentTime - 60;
             Act2Hint1Used = true;
             flowchart.SetBooleanVariable("Act2Hint1Used", Act2Hint1Used);
@@ -163,7 +210,9 @@ public class Timer : MonoBehaviour
         Act2Hint2Used = flowchart.GetBooleanVariable("Act2Hint2Used");
 
         if (Act2Hint2Used == false)
-        {
+        {   
+            Puzzle2Hints = "2";
+            flowchart.SetStringVariable("Puzzle2Hints", Puzzle2Hints);
             currentTime = currentTime - 120;
             Act2Hint2Used = true;
             flowchart.SetBooleanVariable("Act2Hint2Used", Act2Hint2Used);
@@ -174,7 +223,9 @@ public class Timer : MonoBehaviour
         Act2Hint3Used = flowchart.GetBooleanVariable("Act2Hint3Used");
 
         if (Act2Hint3Used == false)
-        {
+        {   
+            Puzzle2Hints = "3";
+            flowchart.SetStringVariable("Puzzle2Hints", Puzzle2Hints);
             currentTime = currentTime - 120;
             Act2Hint3Used = true;
             flowchart.SetBooleanVariable("Act2Hint3Used", Act2Hint3Used);
@@ -186,10 +237,63 @@ public class Timer : MonoBehaviour
 
         if (Answer2Used == false)
         {
+            Puzzle2Hints = "4";
+            flowchart.SetStringVariable("Puzzle2Hints", Puzzle2Hints);
             currentTime = currentTime - 300;
             Answer2Used = true;
             flowchart.SetBooleanVariable("Answer2Used", Answer2Used);
         }
     }
-    
+    public void Act3Hint1()
+    {
+        Act3Hint1Used = flowchart.GetBooleanVariable("Act3Hint1Used");
+
+        if (Act3Hint1Used == false)
+        {
+            Puzzle3Hints = "1";
+            flowchart.SetStringVariable("Puzzle3Hints", Puzzle3Hints);
+            currentTime = currentTime - 60;
+            Act3Hint1Used = true;
+            flowchart.SetBooleanVariable("Act3Hint1Used", Act3Hint1Used);
+        }
+    }
+    public void Act3Hint2()
+    {
+        Act3Hint2Used = flowchart.GetBooleanVariable("Act3Hint2Used");
+
+        if (Act3Hint2Used == false)
+        {   
+            Puzzle3Hints = "2";
+            flowchart.SetStringVariable("Puzzle3Hints", Puzzle3Hints);
+            currentTime = currentTime - 60;
+            Act3Hint2Used = true;
+            flowchart.SetBooleanVariable("Act3Hint2Used", Act3Hint2Used);
+        }
+    }
+    public void Act3Hint3()
+    {
+        Act3Hint3Used = flowchart.GetBooleanVariable("Act3Hint3Used");
+
+        if (Act3Hint3Used == false)
+        {
+            Puzzle3Hints = "3";
+            flowchart.SetStringVariable("Puzzle3Hints", Puzzle3Hints);
+            currentTime = currentTime - 60;
+            Act3Hint3Used = true;
+            flowchart.SetBooleanVariable("Act3Hint3Used", Act3Hint3Used);
+        }
+    }
+    public void Answer3()
+    {
+        Answer3Used = flowchart.GetBooleanVariable("Answer3Used");
+
+        if (Answer3Used == false)
+        {   
+            Puzzle3Hints = "4";
+            flowchart.SetStringVariable("Puzzle3Hints", Puzzle3Hints);
+            currentTime = currentTime - 60;
+            Answer3Used = true;
+            flowchart.SetBooleanVariable("Answer3Used", Answer3Used);
+        }
+    }
 }
