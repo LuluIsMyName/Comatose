@@ -2494,6 +2494,7 @@ GameObject:
   - component: {fileID: 1095687160}
   - component: {fileID: 1095687161}
   - component: {fileID: 1095687162}
+  - component: {fileID: 1095687163}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -2514,19 +2515,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 89.80596, y: 669.697}
+  scrollPos: {x: -106.92196, y: 161.7786}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.25
+  zoom: 0.70600015
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 1095687039}
+  selectedCommands:
+  - {fileID: 1095687162}
   variables:
   - {fileID: 1095687008}
   - {fileID: 1095687020}
@@ -2590,7 +2593,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 207.44672
     y: 54.47132
-    width: 75.6
+    width: 78.328606
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2619,6 +2622,7 @@ MonoBehaviour:
   - {fileID: 1095687003}
   - {fileID: 1095687002}
   - {fileID: 1095687001}
+  - {fileID: 1095687163}
   - {fileID: 1095687160}
   - {fileID: 1095687009}
   suppressAllAutoSelections: 0
@@ -3290,7 +3294,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 350.29178
     y: 132.65446
-    width: 94.8
+    width: 96.458916
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3331,7 +3335,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 14
   indentLevel: 0
-  storyText: "Must be one of Dad\u2019s puzzle stuff."
+  storyText: "Must be one of Dad\u2019s puzzle stuff. There probably is stuff in
+    this room on what to use this for. \n"
   description: 
   character: {fileID: 1548672807}
   portrait: {fileID: 0}
@@ -3359,8 +3364,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 199.85396
-    y: 131.50853
-    width: 123.6
+    y: 128.67567
+    width: 127.05381
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4453,9 +4458,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 494.4161
+    x: 492.99966
     y: 33.229733
-    width: 219.6
+    width: 229.03679
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4537,9 +4542,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 303.72202
-    y: 57.560734
-    width: 149.2
+    x: 299.09274
+    y: 52.93145
+    width: 154.24927
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4640,7 +4645,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 190.14388
     y: -104.37554
-    width: 98
+    width: 100.99149
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5569,7 +5574,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 500.42273
     y: -103.23003
-    width: 110.8
+    width: 117.988655
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5608,7 +5613,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 177.59468
     y: -32.599636
-    width: 139.6
+    width: 147.45041
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5989,9 +5994,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 727.3036
-    y: 131.36383
-    width: 104.4
+    x: 735.3358
+    y: 132.97026
+    width: 105.52406
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6055,7 +6060,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 313.35577
     y: 235.51736
-    width: 130
+    width: 132.71953
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6628,7 +6633,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 605.775
     y: 130.36945
-    width: 107.6
+    width: 106.65721
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6727,7 +6732,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 481.97803
     y: 131.09148
-    width: 101.2
+    width: 99.85835
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6842,7 +6847,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 658.4734
     y: 235.77988
-    width: 85.2
+    width: 86.26062
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6912,9 +6917,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 558.4734
-    y: 236.77988
-    width: 85.2
+    x: 555.5842
+    y: 238.22444
+    width: 82.86118
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6984,9 +6989,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 462.4734
+    x: 461.0288
     y: 237.77988
-    width: 75.6
+    width: 77.195465
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7011,7 +7016,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 118
   indentLevel: 0
-  storyText: 'Socks. '
+  storyText: 'Socks. Hm.. have I looked around the bunk bed? '
   description: 
   character: {fileID: 1548672807}
   portrait: {fileID: 0}
@@ -7056,7 +7061,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 759.3559
     y: 238.66974
-    width: 88.4
+    width: 91.92634
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7233,7 +7238,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 135
   indentLevel: 0
-  storyText: 'MiniPuzzle 2. You may want to write down letters you find. '
+  storyText: 'Red Ring Minipuzzle 2: You may want to write down letters you find. '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -7339,7 +7344,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 739.1484
     y: 31.743168
-    width: 101.2
+    width: 103.25778
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7407,9 +7412,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 863.86957
-    y: 131.67741
-    width: 85.2
+    x: 862.2631
+    y: 133.28384
+    width: 85.12747
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7480,7 +7485,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 878.8792
     y: 236.99649
-    width: 75.6
+    width: 77.195465
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7583,9 +7588,36 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 149
   indentLevel: 0
-  storyText: Maybe there's something else helpful in here.
+  storyText: There is something in this room to use this for I think.
   description: 
   character: {fileID: 1548672807}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1095687163
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1095686995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 150
+  indentLevel: 1
+  storyText: 'Task: Go find the attic.'
+  description: 
+  character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -8762,8 +8794,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2044780845}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.000000059403778, y: 1, z: 0}
   m_LocalScale: {x: 0.6, y: 0.6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

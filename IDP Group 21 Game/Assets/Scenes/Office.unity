@@ -817,11 +817,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -356.03387, y: 137.88272}
+  scrollPos: {x: -164.68568, y: 142.48323}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 402.4
-  zoom: 0.75999975
+  zoom: 0.52149975
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -830,8 +830,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 357518517}
-  selectedCommands:
-  - {fileID: 357518518}
+  selectedCommands: []
   variables:
   - {fileID: 357518485}
   - {fileID: 357518502}
@@ -872,7 +871,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 517.1303
     y: 147.31412
-    width: 131.05266
+    width: 132.83801
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -978,7 +977,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 394.92807
     y: 161.00029
-    width: 87.894745
+    width: 88.35093
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1021,7 +1020,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 267.73474
     y: 88.784584
-    width: 113.15791
+    width: 114.429565
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1091,7 +1090,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 296.978
     y: 161.9874
-    width: 77.36843
+    width: 77.61267
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1613,7 +1612,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 305.60983
     y: 39.56662
-    width: 97.36844
+    width: 97.55515
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3006,7 +3005,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scope: 2
   key: TraumaMode
-  value: 1
+  value: 0
 --- !u!114 &357518510
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -3396,9 +3395,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 682.03436
-    y: 102.995186
-    width: 136.31583
+    x: 676.28174
+    y: 89.572365
+    width: 137.44012
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3925,7 +3924,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 567.5256
     y: 90.23993
-    width: 72.10527
+    width: 71.47652
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3990,7 +3989,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 623.1386
     y: -43.17173
-    width: 103.68423
+    width: 105.22534
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4035,7 +4034,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 629.1069
     y: 13.523178
-    width: 120.52634
+    width: 123.63379
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5071,7 +5070,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 421.68954
     y: 27.19751
-    width: 150.00003
+    width: 152.78049
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5285,7 +5284,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 391.28317
     y: 207.34697
-    width: 132.10529
+    width: 134.37204
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5392,7 +5391,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 523.3612
     y: 195.9438
-    width: 175.2632
+    width: 178.85913
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5856,7 +5855,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 427.1954
     y: 82.66196
-    width: 127.89476
+    width: 128.2359
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6218,7 +6217,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 653.9054
     y: 149.0991
-    width: 172.1053
+    width: 174.25702
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7219,8 +7218,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 103
   indentLevel: 1
-  storyText: Sounds like some kind of code. There might be some clues on how to decipher
-    it around the house.
+  storyText: "Sounds like some kind of code. I think Dad has some books in the house
+    to decipher this code. \n"
   description: 
   character: {fileID: 1291527874}
   portrait: {fileID: 0}
@@ -7337,7 +7336,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 892.1639
     y: 103.42407
-    width: 83.68422
+    width: 83.74882
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7364,7 +7363,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1193.6842
     y: 308.42603
-    width: 178.4211
+    width: 183.46124
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7418,7 +7417,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 867.3413
     y: 236.12158
-    width: 134.21056
+    width: 137.44012
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7504,7 +7503,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 868.7388
     y: 304.8123
-    width: 124.73687
+    width: 126.70186
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7574,7 +7573,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 988.88293
     y: 103.4942
-    width: 96.3158
+    width: 96.02112
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7674,7 +7673,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 990.1992
     y: 175.41397
-    width: 108.94739
+    width: 111.36149
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7717,7 +7716,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 871.4345
     y: 173.7669
-    width: 101.578964
+    width: 103.6913
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8164,7 +8163,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1015.7388
     y: 306.8123
-    width: 155.26318
+    width: 158.91664
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8234,7 +8233,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1107.8829
     y: 104.4942
-    width: 143.68423
+    width: 145.1103
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8308,7 +8307,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1178.9438
     y: 245.95834
-    width: 104.73686
+    width: 105.22534
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8378,7 +8377,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1012.89514
     y: 236.2998
-    width: 135.26318
+    width: 137.44012
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8476,7 +8475,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1132.4762
     y: 176.47229
-    width: 93.15791
+    width: 94.487076
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0

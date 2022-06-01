@@ -794,6 +794,7 @@ GameObject:
   - component: {fileID: 17003226}
   - component: {fileID: 17003228}
   - component: {fileID: 17003227}
+  - component: {fileID: 17003229}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -814,19 +815,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -201.22449, y: 474.1776}
+  scrollPos: {x: 12.69812, y: 131.58023}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 371.2
-  zoom: 0.25
+  zoom: 0.744749
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 17002608}
+  selectedBlocks: []
   selectedCommands: []
   variables:
   - {fileID: 17002585}
@@ -1444,7 +1444,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 329.4337
     y: 243.38284
-    width: 75.6
+    width: 76.85468
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1507,9 +1507,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 158.66524
-    y: 203.63531
-    width: 75.6
+    x: 155.05513
+    y: 201.83026
+    width: 77.92887
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1614,9 +1614,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 654.06384
-    y: 197.93617
-    width: 117.2
+    x: 651.74634
+    y: 195.61868
+    width: 120.89637
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1718,7 +1718,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 639
     y: 95.57143
-    width: 101.2
+    width: 105.85774
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1764,9 +1764,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 520
-    y: 200
-    width: 114
+    x: 517.6825
+    y: 201.48865
+    width: 118.74799
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1837,7 +1837,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 408.03607
     y: 136.52443
-    width: 91.6
+    width: 95.115875
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1904,8 +1904,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 511.22717
-    y: 298.07565
-    width: 110.8
+    y: 295.75815
+    width: 115.52543
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3850,9 +3850,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 654.5244
+    x: 652.2069
     y: 298.99374
-    width: 136.4
+    width: 146.67686
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6233,7 +6233,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 69
   indentLevel: 2
-  storyText: Hold E + Hold/Click to move the character
+  storyText: "Hold E + Hold/Click to move the character \nThere is more to the left
+    of the hallway"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -6414,7 +6415,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 185.65228
     y: -104.37556
-    width: 98
+    width: 103.709366
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6459,7 +6460,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 500.66943
     y: -101.66753
-    width: 110.8
+    width: 121.97056
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7442,7 +7443,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 165.4975
     y: 6.8482275
-    width: 139.6
+    width: 150.9736
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8068,7 +8069,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 401.76282
     y: -4.2932663
-    width: 78.8
+    width: 76.85468
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8437,7 +8438,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 838.52997
     y: -93.94982
-    width: 98
+    width: 101.56099
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8688,7 +8689,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1096.2523
     y: 54.740852
-    width: 101.2
+    width: 102.63518
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8751,7 +8752,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 967.2507
     y: 54.686783
-    width: 98
+    width: 102.63518
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8814,7 +8815,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 838.4114
     y: 48.107822
-    width: 98
+    width: 102.63518
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8877,7 +8878,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1092.3591
     y: -20.367393
-    width: 101.2
+    width: 102.63518
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8940,7 +8941,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 972.09576
     y: -20.367384
-    width: 98
+    width: 102.63518
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9003,7 +9004,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 841.83203
     y: -18.997505
-    width: 101.2
+    width: 102.63518
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9066,7 +9067,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1108.1487
     y: -96.73732
-    width: 101.2
+    width: 102.63518
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9129,7 +9130,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 973.00366
     y: -90.318245
-    width: 98
+    width: 102.63518
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9238,7 +9239,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 642.4873
     y: -10.461905
-    width: 98
+    width: 98.33843
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9932,9 +9933,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 511.97595
+    x: 510.0739
     y: -14.154505
-    width: 104.4
+    width: 108.00612
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9943,6 +9944,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 17002779}
   commandList:
+  - {fileID: 17003229}
   - {fileID: 17002778}
   - {fileID: 17003221}
   - {fileID: 17003166}
@@ -12503,7 +12505,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 835.4302
     y: 110.905235
-    width: 101.2
+    width: 102.63518
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -41319,7 +41321,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -18.037157
     y: 374.19962
-    width: 94.8
+    width: 99.41262
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -41858,7 +41860,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -12.699604
     y: 218.29694
-    width: 94.8
+    width: 99.41262
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -41917,7 +41919,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 299.183
     y: 371.33896
-    width: 101.2
+    width: 110.154495
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -42015,7 +42017,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 145.52869
     y: 373.9952
-    width: 78.8
+    width: 80.07725
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -42584,7 +42586,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 510.99744
     y: 46.18425
-    width: 107.6
+    width: 108.00612
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -44653,7 +44655,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 564
   indentLevel: 1
-  storyText: 'The door is locked. '
+  storyText: 'The door is locked. At this point, I don''t think there is anything
+    helpful in the living room and hallway. '
   description: 
   character: {fileID: 310041263}
   portrait: {fileID: 0}
@@ -44796,7 +44799,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 620.9868
     y: 450.3973
-    width: 114
+    width: 118.74799
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -44868,7 +44871,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 690.6926
     y: 373.04422
-    width: 85.2
+    width: 88.670746
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -44939,9 +44942,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 489.8692
-    y: 376.86786
-    width: 142.8
+    x: 487.5517
+    y: 362.9629
+    width: 150.9736
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -45015,7 +45018,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 508.3015
     y: 442.36188
-    width: 75.6
+    width: 80.07725
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -46679,6 +46682,34 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &17003229
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 17002583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 609
+  indentLevel: 0
+  storyText: 'There''s a keypad on the door. Maybe the passcode to it is to solve
+    whatever played on the cassette tape. '
+  description: 
+  character: {fileID: 310041263}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &83881916 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7051111224244589307, guid: 9da8573f37d48e346851b469ae7e1706, type: 3}
