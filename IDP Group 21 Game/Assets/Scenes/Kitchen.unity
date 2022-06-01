@@ -991,7 +991,6 @@ GameObject:
   - component: {fileID: 407806856}
   - component: {fileID: 407806855}
   - component: {fileID: 407806859}
-  - component: {fileID: 407806860}
   - component: {fileID: 407806862}
   - component: {fileID: 407806863}
   m_Layer: 0
@@ -1014,7 +1013,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 69.20051, y: 165.50854}
+  scrollPos: {x: -6.999466, y: 232.87532}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 402.8
@@ -1025,7 +1024,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 407806824}
   selectedCommands: []
   variables:
   - {fileID: 407806758}
@@ -1549,7 +1549,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 499.79602
-    y: 88.80701
+    y: 87.49122
     width: 87.894745
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -3955,7 +3955,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scope: 2
   key: TraumaMode
-  value: 1
+  value: 0
 --- !u!114 &407806784
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5215,7 +5215,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 615.51105
-    y: 87.95303
+    y: 86.637245
     width: 126.84213
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -5226,7 +5226,6 @@ MonoBehaviour:
   eventHandler: {fileID: 407806826}
   commandList:
   - {fileID: 407806825}
-  - {fileID: 407806860}
   - {fileID: 407806823}
   - {fileID: 407806862}
   suppressAllAutoSelections: 0
@@ -6293,7 +6292,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 454.15237
-    y: -14.426056
+    y: -15.741846
     width: 95.26317
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -6662,34 +6661,6 @@ MonoBehaviour:
   storyText: 'Minipuzzle 3. You may want to write down letters you find. '
   description: 
   character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &407806860
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 407806734}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 110
-  indentLevel: 0
-  storyText: "Dad must\u2019ve misplaced another one of his books. Mind as well take
-    it."
-  description: 
-  character: {fileID: 1409488785}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
