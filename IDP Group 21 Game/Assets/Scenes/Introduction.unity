@@ -5130,6 +5130,10 @@ PrefabInstance:
       propertyPath: _targetGameObject.gameObjectVal
       value: 
       objectReference: {fileID: 1173811084}
+    - target: {fileID: 4081300800242572487, guid: 62d4204a044f5234e95be58fefaf04d9, type: 3}
+      propertyPath: storyText
+      value: "Maybe you\u2019ll find out how to decode the cipher by reading."
+      objectReference: {fileID: 0}
     - target: {fileID: 4081300800242572488, guid: 62d4204a044f5234e95be58fefaf04d9, type: 3}
       propertyPath: _targetGameObject.gameObjectVal
       value: 
@@ -5153,6 +5157,10 @@ PrefabInstance:
     - target: {fileID: 4081300800242572495, guid: 62d4204a044f5234e95be58fefaf04d9, type: 3}
       propertyPath: nodeRect.x
       value: 312.93762
+      objectReference: {fileID: 0}
+    - target: {fileID: 4081300800242572495, guid: 62d4204a044f5234e95be58fefaf04d9, type: 3}
+      propertyPath: nodeRect.y
+      value: 97.21586
       objectReference: {fileID: 0}
     - target: {fileID: 4081300800242572495, guid: 62d4204a044f5234e95be58fefaf04d9, type: 3}
       propertyPath: nodeRect.width
