@@ -4622,6 +4622,10 @@ PrefabInstance:
       propertyPath: nodeRect.width
       value: 167.71432
       objectReference: {fileID: 0}
+    - target: {fileID: 4081300800242572296, guid: 62d4204a044f5234e95be58fefaf04d9, type: 3}
+      propertyPath: storyText
+      value: Read outloud the numbers. There is a pattern.
+      objectReference: {fileID: 0}
     - target: {fileID: 4081300800242572298, guid: 62d4204a044f5234e95be58fefaf04d9, type: 3}
       propertyPath: nodeRect.width
       value: 104.85716
@@ -5218,6 +5222,11 @@ PrefabInstance:
       propertyPath: targetButton
       value: 
       objectReference: {fileID: 803677616}
+    - target: {fileID: 4081300800242572533, guid: 62d4204a044f5234e95be58fefaf04d9, type: 3}
+      propertyPath: storyText
+      value: 'Let''s read it together: Row 1 has one one (1) Row 2 has 2 ones. (11) 
+        Row 3 has (21) because of how the row above has two numbers that are 1.'
+      objectReference: {fileID: 0}
     - target: {fileID: 4081300800242572534, guid: 62d4204a044f5234e95be58fefaf04d9, type: 3}
       propertyPath: targetButton
       value: 
@@ -5249,6 +5258,12 @@ PrefabInstance:
     - target: {fileID: 4081300800242572541, guid: 62d4204a044f5234e95be58fefaf04d9, type: 3}
       propertyPath: nodeRect.width
       value: 99.14287
+      objectReference: {fileID: 0}
+    - target: {fileID: 4081300800242572542, guid: 62d4204a044f5234e95be58fefaf04d9, type: 3}
+      propertyPath: storyText
+      value: The pattern is where the row below is written as how many of a number
+        there are. If there are 11, that means that there are 2 numbers that are
+        1. Which leads to row 3.
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4081300800242572502, guid: 62d4204a044f5234e95be58fefaf04d9, type: 3}

@@ -958,7 +958,6 @@ GameObject:
   - component: {fileID: 407806824}
   - component: {fileID: 407806826}
   - component: {fileID: 407806825}
-  - component: {fileID: 407806823}
   - component: {fileID: 407806830}
   - component: {fileID: 407806828}
   - component: {fileID: 407806829}
@@ -1032,7 +1031,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 407806824}
   selectedCommands:
-  - {fileID: 407806867}
+  - {fileID: 407806825}
   variables:
   - {fileID: 407806758}
   - {fileID: 407806763}
@@ -5179,36 +5178,6 @@ MonoBehaviour:
   commandList:
   - {fileID: 407806821}
   suppressAllAutoSelections: 0
---- !u!114 &407806823
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 407806734}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 79
-  indentLevel: 0
-  storyText: "There's another cassette tape. On the note there's written,\" Beep
-    1 = B, Beep 2 = A, Beep 3 = Sequence of A's & B's are over. \nExample: aaaab
-    = beep 2, beep 2, beep 2, beep 2, beep 1 and beep 3 to signify the sequence is
-    done.\" \n\n"
-  description: 
-  character: {fileID: 1409488785}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &407806824
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5235,7 +5204,6 @@ MonoBehaviour:
   eventHandler: {fileID: 407806826}
   commandList:
   - {fileID: 407806825}
-  - {fileID: 407806823}
   - {fileID: 407806865}
   - {fileID: 407806867}
   - {fileID: 407806866}

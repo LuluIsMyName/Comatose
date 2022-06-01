@@ -4057,7 +4057,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -30.679462
     y: 227.78601
-    width: 76.12245
+    width: 77.25725
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4081,18 +4081,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 400.31064, y: -88.42207}
+  scrollPos: {x: 190.93427, y: -136.30188}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 458.8
-  zoom: 0.67374986
+  zoom: 0.73374987
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 666684268}
   selectedCommands: []
   variables:
   - {fileID: 666684139}
@@ -4172,7 +4173,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 153.67068
     y: 226.47273
-    width: 87.99629
+    width: 85.97957
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4237,8 +4238,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 63.12224
-    y: 226.40485
-    width: 86.808914
+    y: 224.92061
+    width: 85.97957
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4312,7 +4313,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 244.4739
     y: 224.88367
-    width: 89.183685
+    width: 87.069855
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5026,7 +5027,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -139.10521
     y: 228.08943
-    width: 82.05937
+    width: 82.708694
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6481,7 +6482,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 51
   indentLevel: 1
-  storyText: Once the player watches the man run, Rylee approaches MC.
+  storyText: Once the player watches the man run, Rylee approaches {$Username}.
   description: 
   character: {fileID: 1869881169}
   portrait: {fileID: 0}
@@ -6536,7 +6537,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 49
   indentLevel: 1
-  storyText: "As the man approaches MC, the man trips over Rylee\u2019s skirt."
+  storyText: "As the man approaches {$Username}, the man trips over Rylee\u2019s
+    skirt."
   description: 
   character: {fileID: 1869881169}
   portrait: {fileID: 0}
@@ -6726,8 +6728,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 42
   indentLevel: 1
-  storyText: MC and Rylee get up to leave, and as they are leaving the building,
-    they are approached by a man with a knife.
+  storyText: '{$Username} and Rylee get up to leave, and as they are leaving the
+    building, they are approached by a man with a knife.'
   description: 
   character: {fileID: 1869881169}
   portrait: {fileID: 0}
@@ -7422,7 +7424,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 99.49184
     y: 401.23026
-    width: 79.68461
+    width: 78.347534
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7490,7 +7492,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -31.13486
     y: 404.779
-    width: 116.493515
+    width: 114.327095
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7587,7 +7589,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 10.684113
     y: 542.0837
-    width: 96.30798
+    width: 95.792175
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7632,7 +7634,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 323.62744
     y: 499.43478
-    width: 125.99259
+    width: 126.32029
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7679,7 +7681,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 180.81886
     y: 501.71735
-    width: 115.30614
+    width: 115.41739
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7808,7 +7810,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 326.7709
     y: 554.9677
-    width: 115.30614
+    width: 114.327095
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7853,7 +7855,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 183.76375
     y: 554.68646
-    width: 120.05567
+    width: 119.77855
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9115,7 +9117,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -127.76358
     y: 549.02325
-    width: 125.99259
+    width: 121.95913
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10137,7 +10139,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -319.67953
     y: 347.4129
-    width: 178.2375
+    width: 172.11246
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13487,7 +13489,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -290.1876
     y: 427.34818
-    width: 177.05011
+    width: 173.20276
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
