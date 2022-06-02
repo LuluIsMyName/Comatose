@@ -739,11 +739,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 150.4629, y: 107.740326}
+  scrollPos: {x: 136.10037, y: 120.86047}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.9100001
+  zoom: 1
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -798,7 +798,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 330.50876
     y: 82.363464
-    width: 172.1978
+    width: 173.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -853,7 +853,7 @@ MonoBehaviour:
   indentLevel: 1
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: Introduction
+    stringVal: Tutorial
   loadingImage: {fileID: 0}
   sceneNameOLD: 
 --- !u!114 &181390373
@@ -1276,7 +1276,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 66
     y: 71
-    width: 109.78021
+    width: 112.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1471,8 +1471,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 197.09482
-    y: -10.925064
-    width: 106.26373
+    y: -11.925064
+    width: 108.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
