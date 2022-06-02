@@ -33,4 +33,8 @@ public class CameraFollow: MonoBehaviour
 
         transform.position = tempPos;
     }
+    public void CamDown()
+    {
+        transform.position = new Vector3(15, -3);
+    }
 }

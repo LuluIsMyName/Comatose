@@ -36,6 +36,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Survey.unity
     guid: 5636b7a8a3e5ddf48aa6abd60a42b634
   - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: eef4ffdfe86fdf44ab6a1942608873b1
+  - enabled: 1
     path: Assets/Scenes/Introduction.unity
     guid: 26df51302d83a1a4da54d1774234c6f2
   - enabled: 1
@@ -47,4 +50,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Office.unity
     guid: c1112cdfd8a07314084de8e685ff6867
+  - enabled: 1
+    path: Assets/Scenes/Tutorial.unity
+    guid: b8046c1d2439f7040bcaa25c2ccd63df
   m_configObjects: {}

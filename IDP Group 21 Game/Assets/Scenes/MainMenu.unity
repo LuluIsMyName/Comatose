@@ -698,8 +698,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 627554888}
-  selectedCommands: []
+  - {fileID: 627554891}
+  selectedCommands:
+  - {fileID: 627554890}
   variables: []
   description: 
   stepPause: 0
@@ -740,8 +741,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 437.27274
-    y: 44.272728
+    x: 438.27274
+    y: 55.272728
     width: 112.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -870,8 +871,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 332.04364
-    y: -24.366852
+    x: 313.04364
+    y: -21.366852
     width: 90.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -954,8 +955,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 444.23114
-    y: -21.241852
+    x: 433.23114
+    y: -18.241852
     width: 128.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -987,7 +988,7 @@ MonoBehaviour:
   fadeDuration: 1
 --- !u!114 &627554897
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1317,7 +1318,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 0}
+  selectedFlowchart: {fileID: 627554880}
 --- !u!4 &1935084295
 Transform:
   m_ObjectHideFlags: 1

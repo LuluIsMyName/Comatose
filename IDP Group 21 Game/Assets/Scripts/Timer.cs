@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using TMPro;
 using System;
 using Fungus;
+using UnityEngine.SceneManagement;
 
 public class Timer : MonoBehaviour
 {
@@ -42,6 +43,7 @@ public class Timer : MonoBehaviour
     public static int Puzzle1Hints = 0;
     public static string Puzzle2Hints = "0";
     public static string Puzzle3Hints = "0";
+    public static bool GameOver;
 
     // Start is called before the first frame update
     void Awake()
@@ -69,7 +71,9 @@ public class Timer : MonoBehaviour
             if (currentTime <= 0)
             {
                 timerActive = false;
+                currentTime = 0;
                 Debug.Log("Timer finished");
+                SceneManager.LoadScene("Survey");
             }
         }
         TimeSpan time =TimeSpan.FromSeconds(currentTime);
@@ -242,7 +246,7 @@ public class Timer : MonoBehaviour
             currentTime = currentTime - 300;
             Answer2Used = true;
             flowchart.SetBooleanVariable("Answer2Used", Answer2Used);
-        }
+        }   
     }
     public void Act3Hint1()
     {
