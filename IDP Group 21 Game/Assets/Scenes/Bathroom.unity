@@ -225,11 +225,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -84.043274, y: 201.93002}
+  scrollPos: {x: 170.51874, y: 409.9194}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 1
+  zoom: 0.73000026
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -299,7 +299,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 337.9726
     y: -13.109581
-    width: 75.6
+    width: 74.10958
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -369,7 +369,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 26
     y: -11
-    width: 112.4
+    width: 109.17806
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -429,7 +429,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 559.8252
     y: -17.857162
-    width: 97.2
+    width: 94.93149
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2048,9 +2048,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 188.81924
+    x: 190.1891
     y: -106.70114
-    width: 102
+    width: 99.31505
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2095,7 +2095,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 457.10693
     y: -105.23003
-    width: 119.6
+    width: 115.7534
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2319,7 +2319,7 @@ MonoBehaviour:
   indentLevel: 1
   _targetGameObject:
     gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 0}
+    gameObjectVal: {fileID: 881507470}
   activeState:
     booleanRef: {fileID: 0}
     booleanVal: 0
@@ -2777,7 +2777,7 @@ MonoBehaviour:
   indentLevel: 1
   _targetGameObject:
     gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 0}
+    gameObjectVal: {fileID: 881507470}
   activeState:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -3112,7 +3112,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 158.83255
     y: -13.841431
-    width: 149.2
+    width: 144.24655
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3312,7 +3312,7 @@ MonoBehaviour:
   indentLevel: 0
   _targetGameObject:
     gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 0}
+    gameObjectVal: {fileID: 881507470}
   activeState:
     booleanRef: {fileID: 0}
     booleanVal: 0
@@ -3382,9 +3382,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 435.77124
-    y: -14.27356
-    width: 91.6
+    x: 437.1411
+    y: -12.903697
+    width: 90.54793
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3471,7 +3471,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 275.77124
     y: 66.72644
-    width: 138.8
+    width: 135.47943
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3543,7 +3543,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 169.4985
     y: 61.72644
-    width: 82.8
+    width: 81.78081
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3614,7 +3614,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 26.77124
     y: 60.590076
-    width: 129.2
+    width: 123.42463
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4265,6 +4265,54 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 550364165, guid: 3c9994b5d9ac98141843ae932d5dfe07, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 550364165, guid: 3c9994b5d9ac98141843ae932d5dfe07, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 550364165, guid: 3c9994b5d9ac98141843ae932d5dfe07, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 550364165, guid: 3c9994b5d9ac98141843ae932d5dfe07, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 550364165, guid: 3c9994b5d9ac98141843ae932d5dfe07, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 550364165, guid: 3c9994b5d9ac98141843ae932d5dfe07, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1836299771, guid: 3c9994b5d9ac98141843ae932d5dfe07, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1836299771, guid: 3c9994b5d9ac98141843ae932d5dfe07, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1836299771, guid: 3c9994b5d9ac98141843ae932d5dfe07, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1836299771, guid: 3c9994b5d9ac98141843ae932d5dfe07, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1836299771, guid: 3c9994b5d9ac98141843ae932d5dfe07, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1836299771, guid: 3c9994b5d9ac98141843ae932d5dfe07, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4916442432428479598, guid: 3c9994b5d9ac98141843ae932d5dfe07, type: 3}
       propertyPath: m_Name
       value: MenuDialog
@@ -4439,6 +4487,11 @@ GameObject:
 --- !u!1 &881507469 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4916442433539589296, guid: 3c9994b5d9ac98141843ae932d5dfe07, type: 3}
+  m_PrefabInstance: {fileID: 881507467}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &881507470 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1836299770, guid: 3c9994b5d9ac98141843ae932d5dfe07, type: 3}
   m_PrefabInstance: {fileID: 881507467}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &881507472 stripped

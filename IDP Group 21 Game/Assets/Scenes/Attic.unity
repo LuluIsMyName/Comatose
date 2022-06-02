@@ -1459,7 +1459,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parentBlock: {fileID: 921551424}
   suppressBlockAutoSelect: 0
-  targetButton: {fileID: 2007911191}
+  targetButton: {fileID: 0}
 --- !u!114 &921551417
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -2558,7 +2558,7 @@ MonoBehaviour:
   indentLevel: 1
   _targetGameObject:
     gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 2007911190}
+    gameObjectVal: {fileID: 0}
   activeState:
     booleanRef: {fileID: 0}
     booleanVal: 0
@@ -3016,7 +3016,7 @@ MonoBehaviour:
   indentLevel: 1
   _targetGameObject:
     gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 2007911190}
+    gameObjectVal: {fileID: 0}
   activeState:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -3037,7 +3037,7 @@ MonoBehaviour:
   indentLevel: 1
   _targetGameObject:
     gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 2007911190}
+    gameObjectVal: {fileID: 0}
   activeState:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -3420,7 +3420,7 @@ MonoBehaviour:
   indentLevel: 0
   _targetGameObject:
     gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 2007911190}
+    gameObjectVal: {fileID: 0}
   activeState:
     booleanRef: {fileID: 0}
     booleanVal: 0
@@ -4050,6 +4050,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1836299771, guid: 3c9994b5d9ac98141843ae932d5dfe07, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1836299771, guid: 3c9994b5d9ac98141843ae932d5dfe07, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1836299771, guid: 3c9994b5d9ac98141843ae932d5dfe07, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1836299771, guid: 3c9994b5d9ac98141843ae932d5dfe07, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1836299771, guid: 3c9994b5d9ac98141843ae932d5dfe07, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1836299771, guid: 3c9994b5d9ac98141843ae932d5dfe07, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4916442432428479598, guid: 3c9994b5d9ac98141843ae932d5dfe07, type: 3}
       propertyPath: m_Name
       value: MenuDialog
@@ -4248,22 +4272,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4916442433539589296, guid: 3c9994b5d9ac98141843ae932d5dfe07, type: 3}
   m_PrefabInstance: {fileID: 2007911185}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &2007911190 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4916442434226862372, guid: 3c9994b5d9ac98141843ae932d5dfe07, type: 3}
-  m_PrefabInstance: {fileID: 2007911185}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2007911191 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4916442434226862377, guid: 3c9994b5d9ac98141843ae932d5dfe07, type: 3}
-  m_PrefabInstance: {fileID: 2007911185}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2007911190}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2024357938
 GameObject:
   m_ObjectHideFlags: 1

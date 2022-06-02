@@ -2705,7 +2705,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 346.29092, y: 341.54608}
+  scrollPos: {x: 32.005375, y: 237.26048}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 407.8
@@ -2716,7 +2716,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 1977322364}
   selectedCommands: []
   variables:
   - {fileID: 1977322339}
@@ -4352,7 +4353,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 187.14482
-    y: -105.37556
+    y: -103.94698
     width: 101.42855
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -4431,7 +4432,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 520.0658
+    x: 521.4944
     y: -95.490295
     width: 118.5714
     height: 40
@@ -5338,7 +5339,7 @@ MonoBehaviour:
   indentLevel: 1
   _targetGameObject:
     gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 0}
+    gameObjectVal: {fileID: 4916442433780493122}
   activeState:
     booleanRef: {fileID: 0}
     booleanVal: 0
@@ -5380,7 +5381,7 @@ MonoBehaviour:
   indentLevel: 1
   _targetGameObject:
     gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 0}
+    gameObjectVal: {fileID: 4916442433780493122}
   activeState:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -5588,7 +5589,7 @@ MonoBehaviour:
   indentLevel: 0
   _targetGameObject:
     gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 0}
+    gameObjectVal: {fileID: 4916442433780493122}
   activeState:
     booleanRef: {fileID: 0}
     booleanVal: 0
@@ -6946,6 +6947,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1836299771, guid: 3c9994b5d9ac98141843ae932d5dfe07, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1836299771, guid: 3c9994b5d9ac98141843ae932d5dfe07, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1836299771, guid: 3c9994b5d9ac98141843ae932d5dfe07, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1836299771, guid: 3c9994b5d9ac98141843ae932d5dfe07, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1836299771, guid: 3c9994b5d9ac98141843ae932d5dfe07, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1836299771, guid: 3c9994b5d9ac98141843ae932d5dfe07, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4916442432428479598, guid: 3c9994b5d9ac98141843ae932d5dfe07, type: 3}
       propertyPath: m_Name
       value: MenuDialog
@@ -7112,3 +7137,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3c9994b5d9ac98141843ae932d5dfe07, type: 3}
+--- !u!1 &4916442433780493122 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1836299770, guid: 3c9994b5d9ac98141843ae932d5dfe07, type: 3}
+  m_PrefabInstance: {fileID: 4916442433780493121}
+  m_PrefabAsset: {fileID: 0}
