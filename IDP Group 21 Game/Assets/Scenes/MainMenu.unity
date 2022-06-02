@@ -686,11 +686,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 111.84233, y: 240.5606}
+  scrollPos: {x: -32.47323, y: 192.24141}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.7600003
+  zoom: 1
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -698,7 +698,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 627554885}
+  - {fileID: 627554888}
   selectedCommands: []
   variables: []
   description: 
@@ -742,7 +742,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 437.27274
     y: 44.272728
-    width: 114.2105
+    width: 112.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -804,7 +804,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 325.8452
     y: 52.93199
-    width: 78.42104
+    width: 77.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -872,7 +872,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 332.04364
     y: -24.366852
-    width: 92.10525
+    width: 90.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -956,7 +956,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 444.23114
     y: -21.241852
-    width: 131.05261
+    width: 128.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1317,7 +1317,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 627554880}
+  selectedFlowchart: {fileID: 0}
 --- !u!4 &1935084295
 Transform:
   m_ObjectHideFlags: 1
